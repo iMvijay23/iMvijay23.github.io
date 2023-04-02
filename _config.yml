@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Vijay Murari Tiyyala / Master's Student at Johns Hopkins University"
+title                    : "Vijay Murari Tiyyala"
 title_separator          : "-"
 name                     : &name "Vijay Murari Tiyyala"
-description              : &description "Graduate Research Assistant under professor Dr. David Yarowsky"
+description              : &description ""
 url                      : https://imvijay23.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "iMvijay23/iMvijay23.github.io"
@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Vijay Murari"
   avatar           : "profile.png"
-  bio              : "MSE Computer Science, Johns Hopkins University."
+  bio              : "Master's Student at Johns Hopkins University, Johns Hopkins University."
   location         : "Baltimore, MD"
-  employer         :
+  employer         : "Graduate Research Assistant under professor Dr. David Yarowsky
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
   email            : "vtiyyal1@jh.edu"

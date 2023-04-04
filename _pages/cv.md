@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "CV"
-permalink: /files/VijayMurariTiyyalaNLP.pdf/
+permalink: /files/VijayMurariTiyyalaNLP/
 author_profile: true
 redirect_from:
    - files/VijayMurariTiyyalaNLP

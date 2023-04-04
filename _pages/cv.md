@@ -7,13 +7,13 @@ redirect_from:
    - files/VijayMurariTiyyalaNLP
 ---
 
-{% include base_path %}
+{% files/VijayMurariTiyyalaNLP %}
 
 Education
 ======
 * B.S. in Computer Science, Velagapudi Ramakrishna Siddhartha Engineering College, 2021
 * M.S. in Computer Science focused in Machine Learning and NLP, Johns Hopkins University, 2023
-- * Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+<!-- * Ph.D in Version Control Theory, GitHub University, 2018 (expected) -->
 
 Work experience
 ======

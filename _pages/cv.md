@@ -7,7 +7,7 @@ redirect_from:
    - files/VijayMurariTiyyalaNLP
 ---
 
-{% files/VijayMurariTiyyalaNLP %}
+
 
 Education
 ======

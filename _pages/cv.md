@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "CV"
-permalink: /cv/
+permalink: /"files/VijayMurariTiyyalaNLP"/
 author_profile: true
 redirect_from:
   - /resume
@@ -11,49 +11,35 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Computer Science, Velagapudi Ramakrishna Siddhartha Engineering College, 2021
+* M.S. in Computer Science focused in Machine Learning and NLP, Johns Hopkins University, 2023
+# * Ph.D in Version Control Theory, GitHub University, 2018 (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Spring 2023: Research Assistant
+  * Johns Hopkins University
+  * Duties included: Research in Muktilingual Translation in Medical Domain. Data Collection and model training.
+  * Supervisor: Professor David Yarowsky
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2021-2022: Business Technology Analyst
+  * Deloitte
+
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Python
+* Pytorch
+* SQL
+  * Microsoft SQL Server
+* SLURM 
 
-Publications
+Research
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Large Language Models and it's applications
+* In-context learning and few shot
+* State Space Models for longer context in LLM's
+* Multilingual NLP
+* Cross-lingual NLP
+
+

@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Vijay Murari Tiyyala / Personal portfolio"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Vijay Murari Tiyyala"
 description              : &description "Graduate Research Assistant under professor Dr. David Yarowsky"
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Vijay Murari"
+  name             : "Vijay Murari Tiyyala"
   avatar           : "vijayprofile.png"
-  bio              : "Masters in Computer Science, Johns Hopkins University. Graduate Research Assistant under professor Dr. David Yarowsky"
+  bio              : "Masters in Computer Science at Johns Hopkins University. Graduate Research Assistant under professor Dr. David Yarowsky"
   location         : "Baltimore, MD"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
-  email            : "vtiyyal1@jh.edu"
+  email            : "vtiyyal1@jhu.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -103,9 +103,9 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "vijaymuraritiyyala/"
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : # "http://orcid.org/yourorcidurl"
   pinterest        :
-  soundcloud       :
+  soundcloud       : https://soundcloud.com/vijay-murari-tiyyala?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
@@ -255,7 +255,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

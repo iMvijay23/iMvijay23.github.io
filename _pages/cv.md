@@ -19,7 +19,7 @@ Work experience
 ======
 * Spring 2023: Research Assistant
   * Johns Hopkins University
-  * Duties included: Research in Muktilingual Translation in Medical Domain. Data Collection and model training.
+  * Duties included: Research in Multilingual Translation in Medical Domain. Data Collection and model training. Focusing on all world lamguages.
   * Supervisor: Professor David Yarowsky
 
 * 2021-2022: Business Technology Analyst

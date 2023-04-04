@@ -4,7 +4,7 @@ title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
-   files/VijayMurariTiyyalaNLP
+   - files/VijayMurariTiyyalaNLP
 ---
 
 {% include base_path %}
@@ -13,7 +13,7 @@ Education
 ======
 * B.S. in Computer Science, Velagapudi Ramakrishna Siddhartha Engineering College, 2021
 * M.S. in Computer Science focused in Machine Learning and NLP, Johns Hopkins University, 2023
-# * Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+- * Ph.D in Version Control Theory, GitHub University, 2018 (expected)
 
 Work experience
 ======
@@ -24,6 +24,7 @@ Work experience
 
 * 2021-2022: Business Technology Analyst
   * Deloitte
+  * Worked extensively on writing efficient SQL scripts and stored procedures for data management and retrieval.
 
   
 Skills

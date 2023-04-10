@@ -10,14 +10,14 @@ redirect_from:
 
 # About
 
-Hi, I am Vijay Murari a Master's student in Computer Science at Johns Hopkins University focused in Natural Language Processing and Machine Learning. I asprire to become a computer scientist eventually by persuing a PhD in the domain of ML/NLP.
-I have a strong desire to learn new things and get better in the domain. I am drawn to simple things, want to understand things deeply, and like to build useful systems.
-These days, I am fascinated by foundation models (e.g., GPT-3, PaLM, DALL-E), models trained on broad data using self-supervision at immense scale, which can then be adapted to various downstream tasks. These models have changed the way how people might interact with AI. How can we better understand how they work and make them more efficient and robust? is one of my research goals.  
+Hi, I'm Vijay Murari, a Master's student in Computer Science at Johns Hopkins University specializing in Natural Language Processing and Machine Learning. My goal is to pursue a Ph.D. in the ML/NLP domain and become a computer scientist. I am passionate about learning new things and continually improving in my field. I am drawn to simplicity, strive to understand concepts deeply, and enjoy building useful systems.
+
+Lately, I've been fascinated by foundation models (e.g., GPT-3, PaLM, DALL-E) – models trained on broad data using self-supervision at an immense scale, which can then be adapted to various downstream tasks. These models have transformed the way people interact with AI. One of my research goals is to better understand how they work and make them more efficient and robust.
 
 # Academic
-I'm currently working as a Research Assistant under [Dr. David Yarowsky]([link-to-professor's-page](https://www.cs.jhu.edu/~yarowsky/)) in the domain of Multilingual Natural Language Processing (NLP) for building Machine Translation models in the medical field.
+I'm currently working as a Research Assistant under [Dr. David Yarowsky](https://www.cs.jhu.edu/~yarowsky/) in the domain of Multilingual Natural Language Processing (NLP), focusing on building Machine Translation models in the medical field.
 
-This summer, I am excited to join the [Center for Language and Speech Processing]([link-to-center](https://www.clsp.jhu.edu/)) as an intern, where I'll be working on cutting-edge research in the same domain. 
+This summer, I am excited to join the [Center for Language and Speech Processing](https://www.clsp.jhu.edu/) as an intern, where I'll be working on cutting-edge research in the same domain.
 
 ## Research Interests
 
@@ -30,14 +30,13 @@ My research interests are wide-ranging and include:
 - In-context Learning
 - Efficient Training of LLMs
 
-# Interest and Hobbies
-- Music 
-- - I am a avid classical music listener, I listen to a lot of bach, mozart. I like to play video games but couldn't really get time to play.
-- Learning about various interesting langugages
-- - I have interest in learning about various languages in similarities, languages like tamil, telugu, kannada are so similar obviously because of coming from same family, but though the symbols differ, a lot of the words are pronounces the same and syntactic representation is similar in kannada and telugu. 
+# Interests and Hobbies
+- Music
+  - I'm an avid classical music listener and enjoy works by Bach and Mozart. I like to play video games but often struggle to find the time.
+- Learning about various interesting languages
+  - I'm interested in learning about various languages and their similarities. Languages like Tamil, Telugu, and Kannada are similar, stemming from the same family. Although the symbols differ, many words are pronounced the same, and the syntactic representation is similar in Kannada and Telugu.
 - Movies
-- - I love watching movies, especially the thriller and Sci-fi genre. ofcourse terminatior will be my all time favourite.
-- 
+  - I love watching movies, especially those in the thriller and Sci-fi genres. The Terminator series is my all-time favorite.
 
 ## About this Webpage
 

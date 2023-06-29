@@ -15,9 +15,9 @@ Hi, I'm Vijay Murari, a Master's student in Computer Science at Johns Hopkins Un
 Lately, I've been fascinated by foundation models (e.g., GPT-3, PaLM, DALL-E) – models trained on broad data using self-supervision at an immense scale, which can then be adapted to various downstream tasks. These models have transformed the way people interact with AI. One of my research goals is to better understand how they work and make them more efficient and robust.
 
 # Academic
-I'm currently working as a Research Assistant under [Dr. David Yarowsky](https://www.cs.jhu.edu/~yarowsky/) in the domain of Multilingual Natural Language Processing (NLP), focusing on building Machine Translation models in the medical field.
+I'm currently working as a Research Assistant under [Dr. David Yarowsky](https://www.cs.jhu.edu/~yarowsky/) in the domain of Multilingual Natural Language Processing (NLP), focusing on building Machine Translation models in the medical field utilising computational etymology and large language models.
 
-This summer, I am excited to join the [Center for Language and Speech Processing](https://www.clsp.jhu.edu/) as an intern, where I'll be working on cutting-edge research in the same domain.
+This summer, I am excited to join the [Center for Language and Speech Processing](https://www.clsp.jhu.edu/) as a research assistant, where I'll be working on cutting-edge research in the same domain.
 
 ## Research Interests
 

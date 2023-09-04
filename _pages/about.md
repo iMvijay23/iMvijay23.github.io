@@ -10,7 +10,7 @@ redirect_from:
 
 # About Me
 
-Hello! I'm Vijay Murari, a Master's student in Computer Science at Johns Hopkins University with a focus on Machine Learning and Natural Language Processing. My goal is to continue into a Ph.D. program in the ML/NLP domain. I have a passion for understanding and improving foundation models and am skilled in Python, Java, and C++. You can view my updated resume [here](/files/VijayMurariTiyyalaML.pdf).
+Hello! I'm Vijay Murari, a Master's student in Computer Science at Johns Hopkins University with a focus on Machine Learning and Natural Language Processing. My goal is to work on applications using foundational models in the ML/NLP domain. I have a passion for understanding and improving foundation models and it's use cases in our daily lives. You can view my updated resume [here](/files/VijayMurariTiyyalaML.pdf).
 
 ## Research and Experience
 

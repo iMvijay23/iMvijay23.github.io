@@ -1,46 +1,57 @@
 ---
 permalink: /
-title: ""
-excerpt: "About me"
+title: "Vijay Murari – Computer Scientist in Making"
+excerpt: "About Me – Vijay Murari"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-# About
+# About Me
 
-Hi, I'm Vijay Murari, a Master's student in Computer Science at Johns Hopkins University specializing in Natural Language Processing and Machine Learning. My goal is to pursue a Ph.D. in the ML/NLP domain and become a computer scientist. I am passionate about learning new things and continually improving in my field. I am drawn to simplicity, strive to understand concepts deeply, and enjoy building useful systems.
+Hello! I'm Vijay Murari, a Master's student in Computer Science at Johns Hopkins University with a focus on Machine Learning and Natural Language Processing. My goal is to continue into a Ph.D. program in the ML/NLP domain. I have a passion for understanding and improving foundation models and am skilled in Python, Java, and C++. You can view my updated resume [here](/files/VijayMurariTiyyalaMLNLP.pdf).
 
-Lately, I've been fascinated by foundation models (e.g., GPT-3, PaLM, LLAMA) – models trained on broad data using self-supervision at an immense scale, which can then be adapted to various downstream tasks. These models have transformed the way people interact with AI. One of my research goals is to better understand how they work and make them more efficient and robust.
+## Research and Experience
 
-You can find my updated resume [here](/files/VijayMurariTiyyalaMLNLP.pdf)
+- 🌐 **Current Role**: Summer Research Intern at [Center for Language and Speech Processing, Johns Hopkins University](https://www.clsp.jhu.edu/)
+  - Collaborating with Prof. [Mark Dredze](https://www.cs.jhu.edu/~mdredze/) on chatbot development using advanced LLAMA 2 language models and retrieval-augmented generation frameworks.
+- 🤖 **Previous Role**: Research Assistant under [Dr. David Yarowsky](https://www.cs.jhu.edu/~yarowsky/)
+  - Focused on multilingual machine translation in the medical field utilizing large language models and computational etymology.
+- 📈 **Business Technology Analyst**: Deloitte USI
+  - Designed SQL procedures for tax data management and optimized data retrieval.
 
+### Technical Skills
 
-# Academic
-I'm currently working as a Research Assistant under [Dr. David Yarowsky](https://www.cs.jhu.edu/~yarowsky/) in the domain of Multilingual Natural Language Processing (NLP), focusing on building Machine Translation models in the medical field utilising computational etymology and large language models.
+- **Programming Languages**: Python, Java, C++
+- **Model Training and Deployment**: PyTorch, huggingface, accelerate, Distributed Training (SLURM), Spark, Docker
+- **Databases and Operating Systems**: MySQL, MS SQL Server, Solr, Linux
+- **Web & Cloud Technologies**: Jekyll, PHP, HTML, CSS, Google Cloud, Azure
 
-This summer, I am excited to join the [Center for Language and Speech Processing](https://www.clsp.jhu.edu/) as a research assistant, where I'll be working on cutting-edge research in the same domain.
+## Academic Background
 
-## Research Interests
+- 🎓 **Master's in Computer Science, Johns Hopkins University** (Expected 2023)
+  - *Relevant Courses*: Machine Learning, Deep Learning, NLP, Databases, Information Retrieval, Machine Learning System Design, Parallel Computing for Data Science
+- 🎓 **Bachelor of Technology in Computer Science, Velagapudi Ramakrishna Siddhartha Engineering College** (2021)
 
-My research interests are wide-ranging and include:
+## Projects
 
-- Multilingual NLP
-- Machine Translation
-- Cross-lingual Transfer Learning
-- Large Language Models (LLMs)
-- In-context Learning
-- Efficient Training of LLMs
+- **Fine-Tuning Medical Response using Reddit Data**: Used PyTorch, Solr, huggingface, and accelerate for model fine-tuning.
+- **Self-Instruct for Code Editing**: Implemented novel data augmentation techniques for refining language models.
+- **Unsupervised Image Classification with Vision Transformers**: Achieved 86% accuracy on ImageNet.
+
+## Achievements
+
+- 🏆 Top 1% in CodeChef's Long Challenge
+- 🏆 Top 5% in Google Code Jam 2020
 
 # Interests and Hobbies
-- Music
-  - I'm an avid classical music listener and enjoy works by Bach and Mozart. I like to play video games but often struggle to find the time.
-- Learning about various interesting languages
-  - I'm interested in learning about various languages and their similarities. Languages like Tamil, Telugu, and Kannada are similar, stemming from the same family. Although the symbols differ, many words are pronounced the same, and the syntactic representation is similar in Kannada and Telugu.
-- Movies
-  - I love watching movies, especially those in the thriller and Sci-fi genres. The Terminator series is my all-time favorite.
 
-## About this Webpage
+- 🎵 **Music**: An avid listener of classical music, particularly works by Bach and Mozart.
+- 🎮 **Gaming**: Love video games but often struggle to find the time for them.
+- 📚 **Languages**: Interested in the linguistic intricacies of languages like Tamil, Telugu, and Kannada.
+- 🎬 **Movies**: A fan of thrillers and Sci-fi movies, with the Terminator series being an all-time favorite.
 
-On this webpage, you'll find information about my academic background, research projects, and a collection of blog posts I'll be writing based on the research papers I read. Feel free to explore and learn more about my work in the field of NLP!
+## About This Webpage
+
+Explore this website to understand more about my academic journey, ongoing research projects, and my blog posts on intriguing papers in the field of NLP.

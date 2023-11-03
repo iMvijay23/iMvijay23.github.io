@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "Vijay Murari – Computer Scientist in Making"
-excerpt: "About Me – Vijay Murari"
+title: ""
+excerpt: "About Me"
 author_profile: true
 redirect_from: 
   - /about/

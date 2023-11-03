@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: ""
-excerpt: "About Me"
+title: "Vijay Murari Tiyyala - Aspiring NLP Researcher"
+excerpt: "Dedicated to advancing NLP through research and innovation."
 author_profile: true
 redirect_from: 
   - /about/
@@ -10,48 +10,54 @@ redirect_from:
 
 # About Me
 
-Hello! I'm Vijay Murari, a Master's student in Computer Science at Johns Hopkins University with a focus on Machine Learning and Natural Language Processing. My goal is to work on applications using foundational models in the ML/NLP domain. I have a passion for understanding and improving foundation models and it's use cases in our daily lives. You can view my updated resume [here](/files/VijayMurariTiyyalaML.pdf).
+Hello! I'm Vijay Murari Tiyyala, a prospective Ph.D. candidate with a Master's degree in Computer Science from Johns Hopkins University, where I honed my expertise in Machine Learning and Natural Language Processing (NLP). I am deeply invested in elevating foundational models in ML/NLP, aiming to address critical challenges in controlled text generation, summarization, and translation. Here is my [resume](/files/VijayMurariTiyyalaML.pdf).
 
-## Research and Experience
+## Research and Academic Pursuits
 
-- 🌐 **Current Role**: Summer Research Intern at [Center for Language and Speech Processing, Johns Hopkins University](https://www.clsp.jhu.edu/)
-  - Collaborating with Prof. [Mark Dredze](https://www.cs.jhu.edu/~mdredze/) on chatbot development using advanced LLAMA 2 language models and retrieval-augmented generation frameworks.
-- 🤖 **Previous Role**: Research Assistant under [Dr. David Yarowsky](https://www.cs.jhu.edu/~yarowsky/)
-  - Focused on multilingual machine translation in the medical field utilizing large language models and computational etymology.
-- 📈 **Business Technology Analyst**: Deloitte USI
-  - Designed SQL procedures for tax data management and optimized data retrieval.
+- 🎓 **Current Research**: Working at the [Center for Language and Speech Processing, Johns Hopkins University](https://www.clsp.jhu.edu/), under the mentorship of Prof. [Mark Dredze](https://www.cs.jhu.edu/~mdredze/), my focus lies in refining chatbot interactions using advanced LLAMA 2 language models and developing retrieval-augmented generation systems that enhance the factuality and empathy in patient interactions.
+  
+- 🏥 **Clinical NLP Focus**: Previously collaborated with [Dr. David Yarowsky](https://www.cs.jhu.edu/~yarowsky/) to build a multilingual medical concept dictionary, laying the groundwork for enhanced medical translation and report simplification, pivotal for global healthcare communication.
+  
+- 📊 **Industry Experience**: As a Business Technology Analyst at Deloitte USI, I developed SQL procedures for efficient tax data management and devised strategies for optimizing data processes.
 
-### Technical Skills
+### Technical Proficiencies
 
-- **Programming Languages**: Python, Java, C++
-- **Model Training and Deployment**: PyTorch, huggingface, accelerate, Distributed Training (SLURM), Spark, Docker
-- **Databases and Operating Systems**: MySQL, MS SQL Server, Solr, Linux
-- **Web & Cloud Technologies**: Jekyll, PHP, HTML, CSS, Google Cloud, Azure
+- **Languages & Libraries**: Proficient in Python, Java, C++, with extensive use of PyTorch, huggingface, accelerate, and TensorFlow for model training.
+- **Systems & Tools**: Experienced in SLURM for distributed training, proficient in Linux, and familiar with cloud platforms like Google Cloud and Azure.
+- **Web Development**: Skilled in web technologies including Jekyll, PHP, HTML, CSS for creating informative and user-friendly webpages.
 
-## Academic Background
+## Educational Foundation
 
 - 🎓 **Master's in Computer Science, Johns Hopkins University** (Expected 2023)
-  - *Relevant Courses*: Machine Learning, Deep Learning, NLP, Databases, Information Retrieval, Machine Learning System Design, Parallel Computing for Data Science
+  - My coursework encompassed in-depth studies in areas critical to my research interests, including Deep Learning, Advanced NLP, and Machine Learning System Design.
+  
 - 🎓 **Bachelor of Technology in Computer Science, Velagapudi Ramakrishna Siddhartha Engineering College** (2021)
+  - Foundation in computer science principles, software development, and initial exposure to machine learning and data structures.
 
-## Projects
+## Key Projects and Initiatives
 
-- **Fine-Tuning Medical Response using Reddit Data**: Used PyTorch, Solr, huggingface, and accelerate for model fine-tuning.
-- **Self-Instruct for Code Editing**: Implemented novel data augmentation techniques for refining language models.
-- **Unsupervised Image Classification with Vision Transformers**: Achieved 86% accuracy on ImageNet.
+- **Empathetic Medical Response via Reddit Data**: Developed models trained on real-world dialogue data, focusing on empathetic and accurate responses to patient inquiries.
+  
+- **Code Refinement through Self-Instruct Techniques**: Enhanced diversity in code editing by implementing novel data augmentation methods.
+  
+- **Vision Transformers for Image Classification**: Pushed the boundaries of unsupervised learning, achieving notable accuracy metrics on challenging datasets.
 
-## Achievements
+## Distinctions and Accomplishments
 
-- 🏆 Top 1% in CodeChef's Long Challenge
-- 🏆 Top 5% in Google Code Jam 2020
+- 🥇 **Ranked in the Top 1% in CodeChef's Long Challenge**, demonstrating exceptional problem-solving skills and coding prowess.
+  
+- 🥇 **Secured Top 5% in Google Code Jam 2020**, reflecting my competitive spirit and technical acuity in algorithmic challenges.
 
-# Interests and Hobbies
+# Personal Interests
 
-- 🎵 **Music**: An avid listener of classical music, particularly works by Bach and Mozart.
-- 🎮 **Gaming**: Love video games but often struggle to find the time for them.
-- 📚 **Languages**: Interested in the linguistic intricacies of languages like Tamil, Telugu, and Kannada.
-- 🎬 **Movies**: A fan of thrillers and Sci-fi movies, with the Terminator series being an all-time favorite.
+- 🎵 **Music Enthusiast**: Passionate about classical music, often finding solace and inspiration in the compositions of Bach and Mozart.
+  
+- 🎮 **Gaming Aficionado**: Enjoys immersive gaming experiences, although sparingly due to a commitment to research and academic responsibilities.
+  
+- 📚 **Linguistics Buff**: Intrigued by the nuances of Dravidian languages, reflecting my broader interest in linguistic diversity and its relation to NLP.
+  
+- 🎬 **Cinema Connoisseur**: Appreciates the complexity and foresight of sci-fi thrillers, with the Terminator series holding a special place in my collection.
 
-## About This Webpage
+## This Website
 
-Explore this website to understand more about my academic journey, ongoing research projects, and my blog posts on intriguing papers in the field of NLP.
+Embark on a journey through this website to uncover my academic adventures, current research endeavors, and reflections on groundbreaking papers in NLP.

@@ -10,7 +10,7 @@ redirect_from:
 
 # About Me
 
-Hello! I'm Vijay Murari Tiyyala, a prospective Ph.D. candidate with a Master's degree in Computer Science from Johns Hopkins University, where I honed my expertise in Machine Learning and Natural Language Processing (NLP). I am deeply invested in elevating foundational models in ML/NLP, aiming to address critical challenges in controlled text generation, summarization, and translation. Here is my [resume](/files/VijayMurariTiyyalaML.pdf).
+Hello! I'm Vijay Murari Tiyyala, a prospective Ph.D. candidate with a Master's degree in Computer Science from Johns Hopkins University, where I honed my expertise in Machine Learning and Natural Language Processing (NLP). I am deeply invested in elevating foundational models in ML/NLP, aiming to address critical challenges in controlled text generation, summarization, and translation. Here is my [resume](/files/VijayTiyyalaResume.pdf).
 
 ## Research and Academic Pursuits
 

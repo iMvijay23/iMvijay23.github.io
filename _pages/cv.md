@@ -1,10 +1,10 @@
 ---
 layout: archive
 title: "CV"
-permalink: /files/VijayMurariTiyyalaNLP/
+permalink: /files/VijayTiyyalaResume.pdf/
 author_profile: true
 redirect_from:
-   - files/VijayMurariTiyyalaNLP
+   - files/VijayTiyyalaResume
 ---
 
 

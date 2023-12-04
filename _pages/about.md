@@ -19,3 +19,14 @@ I'm finishing my Master's at Johns Hopkins, where I've been diving into Deep Lea
 When I'm not researching, I enjoy classical music, gaming in moderation, exploring Dravidian languages, and watching sci-fi thrillers like the Terminator series.
 
 This site is where I share insights from my academic journey and thoughts on the latest in NLP.
+
+
+## Projects 
+
+- **Empathetic Medical Response via Reddit Data**: This project involved training models on real-world dialogue data from Reddit, focusing on generating empathetic responses in a healthcare context.
+
+- **Code Refinement through Self-Instruct Techniques**: I worked on diversifying methods of code editing by implementing novel data augmentation strategies, enhancing the efficiency of code refinement processes.
+
+- **Vision Transformers for Image Classification**: In this project, I explored the limits of unsupervised learning, achieving significant accuracy metrics on complex datasets using vision transformers.
+
+Please feel free to reach out to me for potential collaborations.

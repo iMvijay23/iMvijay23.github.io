@@ -8,11 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-# About Me
 
 I'm Vijay Murari Tiyyala, a Master's student in Computer Science at Johns Hopkins University. My focus is on Machine Learning and NLP. Interested in my work? Check out my [resume](/files/VijayTiyyalaResume.pdf).
 
-In my current research at the Center for Language and Speech Processing, I'm working under Prof. Mark Dredze to improve chatbot interactions in healthcare. Before this, I was involved in creating a multilingual medical concept dictionary with Dr. David Yarowsky. I also worked in Deloitte as a Data Analyst before my masters.
+In my current research at the Center for Language and Speech Processing, I'm working under Prof. Mark Dredze to improve chatbot interactions in healthcare. Before this, I created a multilingual medical concept dictionary with Dr. David Yarowsky. I also worked at Deloitte as a Data Analyst before my master's.
 
 I'm finishing my Master's at Johns Hopkins, where I've been diving into Deep Learning, Advanced NLP, and ML System Design. I did my undergrad in Computer Science at Velagapudi Ramakrishna Siddhartha Engineering College.
 

@@ -20,7 +20,7 @@ This site is where I share insights from my academic journey and thoughts on the
 
 ## Projects 
 
-### Empathetic Medical Response via Reddit Data
+### Empathy-Enhanced Language Modeling: Refining AI Responses with Fine-Grained Human Feedback
 In this project, we are fine-tuning models for controlled text generation, focusing on empathy, quality, factuality, and comprehensiveness. Our approach is closely aligned with the principles outlined in the paper "Fine-Grained Human Feedback Gives Better Rewards for Language Model Training." This involves training an ensemble of reward models, each tailored to a specific style of text response. By leveraging fine-grained human feedback, we can refine chatbot interactions in healthcare, ensuring responses are not only accurate and relevant but also empathetic and comprehensive.
 
 ### SAMOYEDS: Simulating Agents for Modeling Outcomes and Estimations to Direct Social-policy

@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm Vijay Murari Tiyyala, a researcher in NLP and Machine Learning with a Master’s degree in Computer Science from Johns Hopkins University. Interested in my work? Check out my [resume](/files/VijayMurariTiyyala_Resume.pdf).
+Hi, I'm Vijay Murari Tiyyala, a researcher in NLP and Machine Learning with a Master’s degree in Computer Science from Johns Hopkins University. Interested in my work? Check out my [resume](/files/resume/VijayMurariTiyyala_Resume.pdf).
 
 In my full-time research role at the Center for Language and Speech Processing at Johns Hopkins University, I work under [Prof. Mark Dredze](https://www.cs.jhu.edu/~mdredze/) to enhance chatbot interactions in healthcare. Before this, I developed a multilingual medical concept dictionary with [Dr. David Yarowsky](https://www.cs.jhu.edu/~yarowsky/). I also have experience as a Data Analyst at Deloitte.
 

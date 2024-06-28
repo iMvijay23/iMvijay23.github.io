@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Home"
 title_separator          : "-"
 name                     : &name "Vijay Murari Tiyyala"
-description              : &description "Graduate Research Assistant under professor Dr. David Yarowsky, Dr. Mark Dredze, Dr. Daniel Khashabi"
+description              : &description "NLP and Machine Learning Researcher with a Master's in Computer Science from Johns Hopkins University, working under Prof. Mark Dredze, Dr. Daniel Khashabi, and Dr. David Yarowsky. Currently a full-time Researcher at Johns Hopkins University."
 url                      : https://imvijay23.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "iMvijay23/iMvijay23.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Vijay Murari Tiyyala"
   avatar           : "vijayprofile_700x700.jpg"
-  bio              : "Masters in Computer Science at Johns Hopkins University. Graduate Research Assistant under professor Dr. Mark Dredze and David Yarowsky"
+  bio              : "NLP and Machine Learning Researcher with a Master's in Computer Science from Johns Hopkins University, working full-time under Prof. Mark Dredze, Dr. Daniel Khashabi, and Dr. David Yarowsky."
   location         : "Baltimore, MD"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"

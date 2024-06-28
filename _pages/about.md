@@ -10,12 +10,12 @@ redirect_from:
 
 Hi, I'm Vijay Murari Tiyyala, a researcher in NLP and Machine Learning with a Master’s degree in Computer Science from Johns Hopkins University. Interested in my work? Check out my [resume](/files/VijayMurariTiyyala_Resume.pdf).
 
-In my research at the Center for Language and Speech Processing, I worked under [Prof. Mark Dredze](https://www.cs.jhu.edu/~mdredze/) to enhance chatbot interactions in healthcare. Before this, I developed a multilingual medical concept dictionary with [Dr. David Yarowsky](https://www.cs.jhu.edu/~yarowsky/). I also have experience as a Data Analyst at Deloitte.
+In my full-time research role at the Center for Language and Speech Processing at Johns Hopkins University, I work under [Prof. Mark Dredze](https://www.cs.jhu.edu/~mdredze/) to enhance chatbot interactions in healthcare. Before this, I developed a multilingual medical concept dictionary with [Dr. David Yarowsky](https://www.cs.jhu.edu/~yarowsky/). I also have experience as a Data Analyst at Deloitte.
 
 ## Projects 
 
 ### Empathy-Enhanced LLMs: Refining AI Responses with Fine-Grained Human Feedback
-Fine-tuned models to improve empathy, quality, factuality, and comprehensiveness in text generation, especially for healthcare chatbots.
+In this project, I led the development of models to improve empathy, quality, factuality, and comprehensiveness in text generation. This involved fine-tuning models, creating innovative training datasets, and developing new algorithms to ensure healthcare chatbots provide responses that are not only accurate and relevant but also empathetic and comprehensive.
 
 ### SAMOYEDS: Simulating Agents for Modeling Outcomes and Estimations to Direct Social-policy
 Developed a tool using LLMs to simulate public responses to health policies, aiding decision-making during the COVID-19 pandemic.
@@ -32,9 +32,13 @@ Led development of a tool to identify adverse events from unstructured text, ach
 ### Improving Code Editing through Self-Instruct
 Enhanced code editing by fine-tuning code LLMs, streamlining workflows with a 37% pass@1 accuracy.
 
+### Public Health Data Science
+I collaborated with [John W. Ayers](https://ayersresearch.org/) on multiple projects to leverage big data for public health insights. This included developing models to monitor trends in health behaviors and improve disease forecasting, contributing to impactful public health research.
+
+
 ## Experience 
 
-### NLP Researcher - Johns Hopkins University
+### NLP Researcher - Johns Hopkins University (Full-Time)
 At Johns Hopkins, I engineered an empathetic medical chatbot using LLaMA3, boosting response accuracy and enhancing patient interaction quality. I also reduced training time by 50% using PyTorch/SLURM in a multi-GPU environment.
 
 ### NLP Research Intern - Center for Language and Speech Processing

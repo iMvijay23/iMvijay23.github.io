@@ -1,35 +1,57 @@
 ---
 permalink: /
 title: "Vijay Murari Tiyyala"
-excerpt: "Researcher in NLP"
+excerpt: "Researcher in NLP and Machine Learning"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Hi, I'm a recent Master's graduate in Computer Science from Johns Hopkins University, specializing in Machine Learning and NLP. Interested in my work? Check out my [resume](/files/VijayMurariTiyyala_Resume.pdf).
+Hi, I'm Vijay Murari Tiyyala, a researcher in NLP and Machine Learning with a Master’s degree in Computer Science from Johns Hopkins University. Interested in my work? Check out my [resume](/files/VijayMurariTiyyala_Resume.pdf).
 
-In my research at the Center for Language and Speech Processing, I worked under [Prof. Mark Dredze](https://www.cs.jhu.edu/~mdredze/) to improve chatbot interactions in healthcare. Before this, I developed a multilingual medical concept dictionary with [Dr. David Yarowsky.](https://www.cs.jhu.edu/~yarowsky/) I also have experience as a Data Analyst at Deloitte before pursuing my Master's.
-
-Having completed my Master's in December 2023, my academic journey involved deep dives into Deep Learning, Advanced NLP, and ML System Design. My undergraduate studies were in Computer Science at Velagapudi Ramakrishna Siddhartha Engineering College.
-
-Outside of research, my interests include classical music, moderate gaming, exploring Dravidian languages, and watching sci-fi thrillers like the Terminator series.
-
-This site is where I share insights from my academic journey and thoughts on the latest in NLP.
+In my research at the Center for Language and Speech Processing, I worked under [Prof. Mark Dredze](https://www.cs.jhu.edu/~mdredze/) to enhance chatbot interactions in healthcare. Before this, I developed a multilingual medical concept dictionary with [Dr. David Yarowsky](https://www.cs.jhu.edu/~yarowsky/). I also have experience as a Data Analyst at Deloitte.
 
 ## Projects 
 
 ### Empathy-Enhanced LLMs: Refining AI Responses with Fine-Grained Human Feedback
-In this project, we are fine-tuning models for controlled text generation, focusing on empathy, quality, factuality, and comprehensiveness. Our approach is closely aligned with the principles outlined in the paper "Fine-Grained Human Feedback Gives Better Rewards for Language Model Training." This involves training an ensemble of reward models, each tailored to a specific style of text response. By leveraging fine-grained human feedback, we can refine chatbot interactions in healthcare, ensuring responses are not only accurate and relevant but also empathetic and comprehensive.
+Fine-tuned models to improve empathy, quality, factuality, and comprehensiveness in text generation, especially for healthcare chatbots.
 
 ### SAMOYEDS: Simulating Agents for Modeling Outcomes and Estimations to Direct Social-policy
-SAMOYEDS is a simulation tool designed to anticipate and shape the public response to vaccination strategies and other public health policies. Developed in the context of the COVID-19 pandemic, this project utilizes Mistral 7B, a generative AI model, to simulate human-like behavior patterns within a social network mirroring the U.S. demographics. The project's uniqueness lies in its ability to dynamically model human responses, providing invaluable insights for policy-making in public health. By successfully navigating the complexities of COVID-19 policy, SAMOYEDS demonstrates its potential as a versatile tool for future challenges in public health governance.
+Developed a tool using LLMs to simulate public responses to health policies, aiding decision-making during the COVID-19 pandemic.
 
 ### Medical Terminology Translation and Multilingual Matrix Construction
-This initiative involves creating a massive multilingual matrix for medical terms, focusing on the translation and analysis of compound words. Inspired by the paper "Massively Translingual Compound Analysis and Translation Discovery," the project aims to understand and translate complex medical compounds across various languages. We analyze compounds in over 300 languages, identifying patterns in word formation and semantics. This work is crucial for enhancing machine translation, especially in low-resource languages, and provides a robust foundation for further research in compound word processing and translation.
+Created a massive multilingual matrix for medical terms, enhancing machine translation for low-resource languages.
+
+### Cannabis Use Detection in Clinical EMR
+Trained NLP models to detect cannabis use in EHRs with 97% accuracy, improving data quality and compliance.
+
+### Adverse AI: Automated Discovery of Adverse Event Reports
+Led development of a tool to identify adverse events from unstructured text, achieving 97.5% accuracy and reducing manual review time.
 
 ### Improving Code Editing through Self-Instruct
-I worked on diversifying methods of code editing by implementing novel data augmentation strategies, enhancing the efficiency of code editing processes, and fine-tuning code LLMs.
+Enhanced code editing by fine-tuning code LLMs, streamlining workflows with a 37% pass@1 accuracy.
 
-Please feel free to reach out to me for potential collaborations.
+## Experience 
+
+### NLP Researcher - Johns Hopkins University
+At Johns Hopkins, I engineered an empathetic medical chatbot using LLaMA3, boosting response accuracy and enhancing patient interaction quality. I also reduced training time by 50% using PyTorch/SLURM in a multi-GPU environment.
+
+### NLP Research Intern - Center for Language and Speech Processing
+I developed a RAG chatbot with Apache Solr Cloud, reducing search time by 70% and increasing web traffic by 40%. Additionally, I optimized document retrieval and integrated re-ranking and chunk summarization.
+
+### Graduate Research Assistant - Johns Hopkins University
+I improved machine translation accuracy for medical terminologies in low-resource languages, enhancing accessibility and precision.
+
+### Business Technology Analyst - Deloitte
+At Deloitte, I developed stored procedures and scripts for integrating clients’ tax data via APIs, reducing processing time and boosting client retention.
+
+## Publications
+
+### Published
+- Kreyòl-MT: Building MT for Latin American, Caribbean, and Colonial African Creole Languages, NAACL 2024.
+
+### Under Review
+- ANALOBENCH: Benchmarking the Identification of Abstract and Long-context Analogies, submitted to ACL 2024.
+
+Feel free to reach out for potential collaborations. You can find more about my work and projects on [LinkedIn](https://linkedin.com/in/vijaymuraritiyyala/) and [GitHub](https://imvijay23.github.io/).

@@ -58,4 +58,4 @@ At Deloitte, I developed stored procedures and scripts for integrating clientsâ€
 ### Under Review
 - ANALOBENCH: Benchmarking the Identification of Abstract and Long-context Analogies, submitted to ACL 2024.
 
-Feel free to reach out for potential collaborations. You can find more about my work and projects on [LinkedIn](https://linkedin.com/in/vijaymuraritiyyala/) and [GitHub](https://imvijay23.github.io/).
+Feel free to [reach out](/files/resume/VijayMurariTiyyala_CV.pdf) for potential collaborations. You can find more about my work and projects on [LinkedIn](https://linkedin.com/in/vijaymuraritiyyala/) and [GitHub](https://imvijay23.github.io/).

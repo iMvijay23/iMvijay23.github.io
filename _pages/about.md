@@ -32,10 +32,10 @@ Please feel free to reach out if you are interested in any of the above topics o
 ### In Progress/Preprint
 
 - [BabyData: Exploring the Trade-offs Between Dataset Size and Pre-training Progression: Insights into Fine-tunability and In-context Learning](https://imvijay23.github.io/)<br>
-**Vijay M. Tiyyala**\*, Kaiser Sun*, Naomi Saphra, Jessica Forde, Mark Dredze [***In Progress***]
+**Vijay M. Tiyyala**\*, Kaiser Sun\*, Naomi Saphra, Jessica Forde, Mark Dredze [***In Progress***]
 
 - [Training and Aligning Large Language Models with Augmented Clinical Responses: Improving Empathy, Accuracy, and Trust in Healthcare Communication](https://imvijay23.github.io/)<br>
-Matthew R. Allen*, **Vijay M. Tiyyala**\*, Nimit Desai, Karthik Ramesh, Job Shiach, Mark Dredze, Mike Hogarth, John W. Ayers [***In Progress***]
+Matthew R. Allen\*, **Vijay M. Tiyyala**\*, Nimit Desai, Karthik Ramesh, Job Shiach, Mark Dredze, Mike Hogarth, John W. Ayers [***In Progress***]
 
 - [Evaluating Clinician and AI Chatbot Responses to Clinical Questions Posed in a Health System Using the CREATE TRUST Framework](https://imvijay23.github.io/)<br>
 Armaan Johal, Atharva Yeola, **Vijay M. Tiyyala**, ..., Mark Dredze, John W. Ayers [***In Progress***]
@@ -49,7 +49,7 @@ Nathaniel R. Robinson and Raj Dabre and ... **Vijay M. Tiyyala** ... Sanjeev Khu
 Xiao Ye, Andrew Wang, Jacob Choi, Yining Lu, Shreya Sharma, Lingfeng Shen, **Vijay M. Tiyyala**, Nicholas Andrews, Daniel Khashabi [***EMNLP 2024***]
 
 - [Waldo: Automated Discovery of Adverse Events from Unstructured Self Reports](https://imvijay23.github.io/)<br>
-Karan Desai*, **Vijay M. Tiyyala**\*, ..., Mark Dredze, John W. Ayers [***JAMIA Under Review***]
+Karan Desai\*, **Vijay M. Tiyyala**\*, ..., Mark Dredze, John W. Ayers [***JAMIA Under Review***]
 
 - [HIVTrends.org: Public, Real-Time, and Validated HIV Testing Sales Trends from Search Query Surveillance](https://hivtrends.org/)<br>
 **Vijay M. Tiyyala**, Atharva Yeola, Karan Desai, Nimit Desai, Mathew R. Allen, Vin Somasundaram, Mark Dredze, Mike Hogarth, Nadir Weibel, Ravi Goyal, Davey M. Smith, John W. Ayers [***JAMIA Under Review***]

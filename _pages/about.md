@@ -44,7 +44,7 @@ Armaan Johal, Atharva Yeola, **Vijay M. Tiyyala**, ..., Mark Dredze, John W. Aye
 Karan Desai, **Vijay M. Tiyyala**, ..., Mark Dredze, John W. Ayers [***JAMIA Under Review***]
 
 - [HIVTrends.org: Public, Real-Time, and Validated HIV Testing Sales Trends from Search Query Surveillance](https://hivtrends.org/)<br>
-**Vijay M. Tiyyala**, Atharva Yeola, Karan Desai, Nimit Desai, Mathew R. Allen, Vin Somasundaram, Mark Dredze, Mike Hogarth, Nadir Weibel, Ravi Goyal, Davey M. Smith, M.A.S., John W. Ayers, M.A. [***JAMIA Under Review***]
+**Vijay M. Tiyyala**, Atharva Yeola, Karan Desai, Nimit Desai, Mathew R. Allen, Vin Somasundaram, Mark Dredze, Mike Hogarth, Nadir Weibel, Ravi Goyal, Davey M. Smith, John W. Ayers [***JAMIA Under Review***]
 
 
 ## Research Experience

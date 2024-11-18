@@ -49,7 +49,7 @@ Nathaniel R. Robinson and Raj Dabre and ... **Vijay M. Tiyyala** ... Sanjeev Khu
 Xiao Ye, Andrew Wang, Jacob Choi, Yining Lu, Shreya Sharma, Lingfeng Shen, **Vijay M. Tiyyala**, Nicholas Andrews, Daniel Khashabi [***EMNLP 2024***]
 
 - [Waldo: Automated Discovery of Adverse Events from Unstructured Self Reports](https://imvijay23.github.io/)<br>
-Karan Desai, **Vijay M. Tiyyala**, ..., Mark Dredze, John W. Ayers [***JAMIA Under Review***]
+Karan Desai*, **Vijay M. Tiyyala**\*, ..., Mark Dredze, John W. Ayers [***JAMIA Under Review***]
 
 - [HIVTrends.org: Public, Real-Time, and Validated HIV Testing Sales Trends from Search Query Surveillance](https://hivtrends.org/)<br>
 **Vijay M. Tiyyala**, Atharva Yeola, Karan Desai, Nimit Desai, Mathew R. Allen, Vin Somasundaram, Mark Dredze, Mike Hogarth, Nadir Weibel, Ravi Goyal, Davey M. Smith, John W. Ayers [***JAMIA Under Review***]

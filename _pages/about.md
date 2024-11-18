@@ -38,7 +38,7 @@ Matthew R. Allen*, **Vijay M. Tiyyala***, Nimit Desai, Karthik Ramesh, Job Shiac
 Armaan Johal, Atharva Yeola, **Vijay M. Tiyyala**, ..., Mark Dredze, John W. Ayers [***In Progress***]
 
 ### Publications
-- [Krey\`ol-MT: Building MT for Latin American, Caribbean and Colonial African Creole Languages](https://arxiv.org/abs/2405.05376)<br> 
+- [Krey\`ol-MT: Building MT for Latin American, Caribbean, and Colonial African Creole Languages](https://arxiv.org/abs/2405.05376)<br> 
 Nathaniel R. Robinson and Raj Dabre and ... **Vijay M. Tiyyala** ... Sanjeev Khudanpur and Stephen D. Richardson and Kenton Murray [***NAACL 2024***]
 - [AnaloBench: Benchmarking the Identification of Abstract and Long-context Analogies](https://arxiv.org/abs/2402.12370)<br>
 Xiao Ye, Andrew Wang, Jacob Choi, Yining Lu, Shreya Sharma, Lingfeng Shen, **Vijay M. Tiyyala**, Nicholas Andrews, Daniel Khashabi [***EMNLP 2024***]
@@ -52,14 +52,14 @@ Karan Desai, **Vijay M. Tiyyala**, ..., Mark Dredze, John W. Ayers [***JAMIA Und
 
 ## Research Experience
 
-### Research Assistant - CLSP,Johns Hopkins University 2023-2024
+### Research Assistant - CLSP, Johns Hopkins University 2023-2024
 - Developed methods to enhance LLM fine-tuning and improve empathetic AI responses in healthcare applications.
 
-### Research Intern - CLSP,Johns Hopkins University 2022-2023
+### Research Intern - CLSP, Johns Hopkins University 2022-2023
 - Worked on retrieval-augmented generation (RAG) systems and evaluated clinician-AI collaboration frameworks in healthcare.
 - Worked on instruction following ability in code LLMs using self-instruct.
 
-### Graduate Research Assistant - CLSP,Johns Hopkins University 2022-2023
+### Graduate Research Assistant - CLSP, Johns Hopkins University 2022-2023
 - Improved machine translation accuracy for medical terminologies in low-resource languages, enhancing accessibility and precision.
 
 

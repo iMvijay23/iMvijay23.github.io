@@ -89,5 +89,7 @@ Created a massive multilingual matrix for medical terms, enhancing machine trans
 ```code 
   Collaborated with [John W. Ayers](https://ayersresearch.org/) on multiple projects to leverage AI & data for public health insights. This included developing models to monitor trends in health behaviors and improve disease forecasting, contributing to impactful public health research.
 ```
+<!-- MapMyVisitors Widget -->
+<script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?cl=ffffff&w=318&t=tt&d=L8F8a5DgluoVJ9BIVVGwnD7RXOrrtvFIREhbxmgO1Hg"></script>
 
 Feel free to [reach out](/files/resume/VijayMurariTiyyala_CV.pdf) for potential collaborations. You can find more about my work and projects on [LinkedIn](https://linkedin.com/in/vijaymuraritiyyala/) and [GitHub](https://imvijay23.github.io/).

@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am a Research Assistant at [Center for Language and Speech Processing](https://clsp.jhu.edu/) at [Johns Hopkins University](https://www.jhu.edu/) where I am fortunate to be advised by [Prof. Mark Dredze](https://www.cs.jhu.edu/~mdredze/) and [Prof. David Yarowsky](https://www.cs.jhu.edu/~yarowsky/). Broadly, my research interests are in NLP and Machine Learning. 
+Hi, I am a Research Assistant at [Center for Language and Speech Processing](https://clsp.jhu.edu/) at [Johns Hopkins University](https://www.jhu.edu/) where I am fortunate to be advised by [Prof. Mark Dredze](https://www.cs.jhu.edu/~mdredze/). Broadly, my research interests are in NLP and Machine Learning. 
 
 Previously I received my Master's degree in Computer Science at Johns Hopkins University in 2023 where I was fortunate to work with [Prof. Mark Dredze](https://www.cs.jhu.edu/~mdredze/), [Prof. Daniel Khashabi](https://www.cs.jhu.edu/~danielk/), [Prof. David Yarowsky](https://www.cs.jhu.edu/~yarowsky/). I also frequently collaborated with [Prof. John W. Ayers](https://ayersresearch.org/) on projects related to AI in public health. 
 

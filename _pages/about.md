@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Vijay Murari Tiyyala"
+title: "**Vijay Murari** Tiyyala"
 excerpt: "Researcher in NLP and Machine Learning"
 author_profile: true
 redirect_from: 

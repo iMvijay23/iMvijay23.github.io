@@ -30,12 +30,17 @@ Currently, I am working on and constantly thinking about the following problems:
 
 Please feel free to reach out if you are interested in any of the above topics or just want to chat about research!
 ### In Progress/Preprint
+
 - [BabyData: Exploring the Trade-offs Between Dataset Size and Pre-training Progression: Insights into Fine-tunability and In-context Learning](https://imvijay23.github.io/)<br>
-**Vijay M. Tiyyala**, Kaiser Sun*, Naomi Saphra, Jessica Forde, Mark Dredze [***In Progress***]
+**Vijay M. Tiyyala***, Kaiser Sun**, Naomi Saphra, Jessica Forde, Mark Dredze [***In Progress***]
+
 - [Training and Aligning Large Language Models with Augmented Clinical Responses: Improving Empathy, Accuracy, and Trust in Healthcare Communication](https://imvijay23.github.io/)<br>
-Matthew R. Allen*, **Vijay M. Tiyyala***, Nimit Desai, Karthik Ramesh, Job Shiach, Mark Dredze, Mike Hogarth, John W. Ayers [***In Progress***s]
+Matthew R. Allen*, **Vijay M. Tiyyala***, Nimit Desai, Karthik Ramesh, Job Shiach, Mark Dredze, Mike Hogarth, John W. Ayers [***In Progress***]
+
 - [Evaluating Clinician and AI Chatbot Responses to Clinical Questions Posed in a Health System Using the CREATE TRUST Framework](https://imvijay23.github.io/)<br>
 Armaan Johal, Atharva Yeola, **Vijay M. Tiyyala**, ..., Mark Dredze, John W. Ayers [***In Progress***]
+
+*Equal contribution
 
 ### Publications
 - [Krey\`ol-MT: Building MT for Latin American, Caribbean, and Colonial African Creole Languages](https://arxiv.org/abs/2405.05376)<br> 

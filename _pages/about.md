@@ -7,6 +7,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<div style="background-color: #e8f4fc; padding: 10px; border-radius: 5px; border: 1px solid #b6e0fe; font-weight: bold;">
+📢 I am actively looking for PhD opportunities starting Fall 2025.
+</div>
 
 Hi, I am a Research Assistant at [Center for Language and Speech Processing](https://clsp.jhu.edu/) at [Johns Hopkins University](https://www.jhu.edu/) where I am fortunate to be advised by [Prof. Mark Dredze](https://www.cs.jhu.edu/~mdredze/). Broadly, my research interests are in NLP and Machine Learning. 
 
@@ -24,22 +27,22 @@ Currently, I am working on and constantly thinking about the following problems:
 - **Evaluations**: How can we evaluate the capabilities of LLMs in a more comprehensive manner?
   - Faithfulness, Hallucinations
 
-<div style="background-color: #e8f4fc; padding: 10px; border-radius: 5px; border: 1px solid #b6e0fe; font-weight: bold;">
-📢 I am actively looking for PhD opportunities starting Fall 2025.
-</div>
+
 Please feel free to reach out if you are interested in any of the above topics or just want to chat about research!
-
-
-### Publications
+### In Progress/Preprint
 - [BabyData: Exploring the Trade-offs Between Dataset Size and Pre-training Progression: Insights into Fine-tunability and In-context Learning](https://imvijay23.github.io/)<br>
-**Vijay M. Tiyyala**, Kaiser Sun, Naomi Saphra, Jessica Forde, Mark Dredze [***In Progress***]
-- [Krey\`ol-MT: Building MT for Latin American, Caribbean and Colonial African Creole Languages](https://arxiv.org/abs/2405.05376)<br> 
-Nathaniel R. Robinson and Raj Dabre and ... **Vijay M. Tiyyala** ... Sanjeev Khudanpur and Stephen D. Richardson and Kenton Murray [***NAACL 2024***]
-
-- [AnaloBench: Benchmarking the Identification of Abstract and Long-context Analogies](https://arxiv.org/abs/2402.12370)<br>
-Xiao Ye, Andrew Wang, Jacob Choi, Yining Lu, Shreya Sharma, Lingfeng Shen, **Vijay M. Tiyyala**, Nicholas Andrews, Daniel Khashabi [***EMNLP 2024***]
+**Vijay M. Tiyyala**, Kaiser Sun*, Naomi Saphra, Jessica Forde, Mark Dredze [***In Progress***]
+- [Training and Aligning Large Language Models with Augmented Clinical Responses: Improving Empathy, Accuracy, and Trust in Healthcare Communication](https://imvijay23.github.io/)<br>
+Matthew R. Allen*, **Vijay M. Tiyyala***, Nimit Desai, Karthik Ramesh, Job Shiach, Mark Dredze, Mike Hogarth, John W. Ayers [***In Progress***s]
 - [Evaluating Clinician and AI Chatbot Responses to Clinical Questions Posed in a Health System Using the CREATE TRUST Framework](https://imvijay23.github.io/)<br>
 Armaan Johal, Atharva Yeola, **Vijay M. Tiyyala**, ..., Mark Dredze, John W. Ayers [***In Progress***]
+
+### Publications
+- [Krey\`ol-MT: Building MT for Latin American, Caribbean and Colonial African Creole Languages](https://arxiv.org/abs/2405.05376)<br> 
+Nathaniel R. Robinson and Raj Dabre and ... **Vijay M. Tiyyala** ... Sanjeev Khudanpur and Stephen D. Richardson and Kenton Murray [***NAACL 2024***]
+- [AnaloBench: Benchmarking the Identification of Abstract and Long-context Analogies](https://arxiv.org/abs/2402.12370)<br>
+Xiao Ye, Andrew Wang, Jacob Choi, Yining Lu, Shreya Sharma, Lingfeng Shen, **Vijay M. Tiyyala**, Nicholas Andrews, Daniel Khashabi [***EMNLP 2024***]
+
 - [Waldo: Automated Discovery of Adverse Events from Unstructured Self Reports](https://imvijay23.github.io/)<br>
 Karan Desai, **Vijay M. Tiyyala**, ..., Mark Dredze, John W. Ayers [***JAMIA Under Review***]
 

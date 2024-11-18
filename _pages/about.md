@@ -25,9 +25,7 @@ Currently, I am working on and constantly thinking about the following problems:
   - Faithfulness, Hallucinations
 
 <div style="background-color: #e8f4fc; padding: 10px; border-radius: 5px; border: 1px solid #b6e0fe; font-weight: bold;">
-
-📢 **Looking for PhD Positions**  
-I am actively looking for PhD opportunities starting Fall 2025.
+📢 I am actively looking for PhD opportunities starting Fall 2025.
 </div>
 Please feel free to reach out if you are interested in any of the above topics or just want to chat about research!
 

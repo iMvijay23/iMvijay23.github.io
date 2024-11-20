@@ -7,9 +7,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<div style="background-color: #e8f4fc; padding: 10px; border-radius: 5px; border: 1px solid #b6e0fe; font-weight: bold;">
+<!-- <div style="background-color: #e8f4fc; padding: 10px; border-radius: 5px; border: 1px solid #b6e0fe; font-weight: bold;">
 📢 I am actively looking for PhD opportunities starting Fall 2025.
-</div>
+</div> -->
 
 Hi, I am a Research Assistant at [Center for Language and Speech Processing](https://clsp.jhu.edu/) at [Johns Hopkins University](https://www.jhu.edu/) where I am fortunate to be advised by [Prof. Mark Dredze](https://www.cs.jhu.edu/~mdredze/). Broadly, my research interests are in NLP and Machine Learning. 
 

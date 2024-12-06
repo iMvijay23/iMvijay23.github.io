@@ -13,7 +13,7 @@ redirect_from:
 
 Hi, I am a Research Assistant at [Center for Language and Speech Processing](https://clsp.jhu.edu/) at [Johns Hopkins University](https://www.jhu.edu/) where I am fortunate to be advised by [Prof. Mark Dredze](https://www.cs.jhu.edu/~mdredze/). Broadly, my research interests are in NLP and Machine Learning. 
 
-Previously I received my Master's degree in Computer Science at Johns Hopkins University in 2023 where I was fortunate to work with [Prof. Mark Dredze](https://www.cs.jhu.edu/~mdredze/), [Prof. Daniel Khashabi](https://www.cs.jhu.edu/~danielk/), [Prof. David Yarowsky](https://www.cs.jhu.edu/~yarowsky/). I also frequently collaborated with [Prof. John W. Ayers](https://ayersresearch.org/) on AI-related projects in health. [CV](files/VijayMurariTiyyala_CV.pdf)
+Previously I received my Master's degree in Computer Science at Johns Hopkins University in 2023 where I was fortunate to work with [Prof. Mark Dredze](https://www.cs.jhu.edu/~mdredze/), [Prof. Daniel Khashabi](https://www.cs.jhu.edu/~danielk/), [Prof. David Yarowsky](https://www.cs.jhu.edu/~yarowsky/). I also frequently collaborated with [Prof. John W. Ayers](https://ayersresearch.org/) on AI-related projects in health. [CV](iMvijay23.github.io/files/VijayMurariTiyyala_CV.pdf)
 
 Currently, I am working on and constantly thinking about the following problems:
 

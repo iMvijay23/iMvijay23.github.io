@@ -22,6 +22,7 @@ export const site = {
   },
   description: 'Vijay Murari Tiyyala — PhD student at Boston University working on interpretability of language models.',
   avatar: '/profile.jpg',
+  ogImage: '/og.png',       // link-preview card; regenerate with python3 scripts/make-og.py
   // How your name appears in author lists (all variants get bolded)
   selfNames: ['Vijay Murari Tiyyala', 'Vijay M. Tiyyala', 'V. M. Tiyyala', 'Tiyyala VM'],
   links: [

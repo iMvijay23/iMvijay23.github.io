@@ -1,0 +1,61 @@
+<!doctype html>
+<!-- Source for public/og.png (link-preview image). Regenerate: python3 scripts/make-og.py -->
+<html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=block" rel="stylesheet">
+<style>
+  html,body{margin:0;width:1200px;height:630px;background:#0f1411;overflow:hidden}
+  body{font-family:'JetBrains Mono',monospace;color:#d7e0d8;position:relative}
+  .frame{position:absolute;inset:28px;border:1px solid #26322a;border-radius:10px}
+  .left{position:absolute;left:76px;top:92px;width:560px}
+  .p{font-size:24px;color:#7f8c82}.u{color:#4ade80;font-weight:700}.d{color:#f5b04c}
+  h1{font-size:60px;line-height:1.1;margin:22px 0 18px;font-weight:700;letter-spacing:-1px}
+  h1 .cur{display:inline-block;width:30px;height:56px;background:#4ade80;vertical-align:-8px;margin-left:10px}
+  .tag{font-size:26px;color:#7f8c82;margin:0 0 30px}
+  .focus{font-size:25px;line-height:1.7}
+  .focus span{color:#4ade80}
+  .url{position:absolute;left:76px;bottom:70px;font-size:22px;color:#7f8c82}
+  .url b{color:#d7e0d8;font-weight:400}
+  svg{position:absolute;right:48px;top:70px}
+</style></head><body>
+<div class="frame"></div>
+<div class="left">
+  <div class="p"><span class="u">vijay@bu</span>:<span class="d">~</span>$ whoami</div>
+  <h1>Vijay Murari<br>Tiyyala<span class="cur"></span></h1>
+  <p class="tag">PhD student · Boston University</p>
+  <div class="focus"><span>&gt;</span> interpretability<br><span>&gt;</span> alignment &amp; robustness<br><span>&gt;</span> sycophancy &amp; steering</div>
+</div>
+<div class="url">→ <b>imvijay23.github.io</b></div>
+<svg id="net" width="520" height="490" viewBox="0 0 520 490"></svg>
+<script>
+  // Deterministic pseudo-random so the card is reproducible
+  let s = 7; const rnd = () => (s = (s * 16807) % 2147483647) / 2147483647;
+  const svg = document.getElementById('net'), NS = 'http://www.w3.org/2000/svg';
+  const el = (t, a) => { const e = document.createElementNS(NS, t); for (const k in a) e.setAttribute(k, a[k]); svg.append(e); return e; };
+  const COLS = 12, ROWS = 10, x0 = 60, y0 = 30, dx = 31, dy = 44, STEER = 4;
+  // diverging colormap: blue (neg) → dark → red (pos); after steering: shift toward green
+  const col = (v, steered) => {
+    if (steered) { const a = 0.25 + 0.75 * Math.abs(v); return `rgba(74,222,128,${a.toFixed(2)})`; }
+    return v < 0 ? `rgba(59,130,246,${(0.15 + 0.85 * -v).toFixed(2)})` : `rgba(220,38,38,${(0.15 + 0.85 * v).toFixed(2)})`;
+  };
+  // residual-stream lines
+  for (let c = 0; c < COLS; c++) el('line', { x1: x0 + c * dx, y1: y0 - 10, x2: x0 + c * dx, y2: y0 + (ROWS - 1) * dy + 10, stroke: '#26322a', 'stroke-width': 1 });
+  // steered layer band
+  el('rect', { x: x0 - 18, y: y0 + STEER * dy - 16, width: (COLS - 1) * dx + 36, height: 32, rx: 6, fill: 'none', stroke: '#4ade80', 'stroke-width': 1.5, 'stroke-dasharray': '5 4' });
+  for (let r = 0; r < ROWS; r++) {
+    const t = el('text', { x: 8, y: y0 + r * dy + 6, fill: r === STEER ? '#4ade80' : '#7f8c82', 'font-size': 15, 'font-family': 'JetBrains Mono' });
+    t.textContent = 'L' + (r * 2);
+    for (let c = 0; c < COLS; c++) {
+      let v = (rnd() * 2 - 1); v = Math.sign(v) * Math.pow(Math.abs(v), 0.8);
+      // after the steered layer, a growing fraction of units align with the steering direction
+      const steered = r > STEER && rnd() < 0.35 + 0.08 * (r - STEER);
+      el('circle', { cx: x0 + c * dx, cy: y0 + r * dy, r: 9 + 3 * Math.abs(v), fill: col(v, steered || (r === STEER && c % 3 === 1)) });
+    }
+  }
+  // injection arrow + label
+  const ay = y0 + STEER * dy;
+  el('path', { d: `M ${x0 + (COLS - 1) * dx + 70} ${ay} L ${x0 + (COLS - 1) * dx + 26} ${ay}`, stroke: '#4ade80', 'stroke-width': 2.5 });
+  el('path', { d: `M ${x0 + (COLS - 1) * dx + 34} ${ay - 7} L ${x0 + (COLS - 1) * dx + 25} ${ay} L ${x0 + (COLS - 1) * dx + 34} ${ay + 7}`, stroke: '#4ade80', 'stroke-width': 2.5, fill: 'none' });
+  const lab = el('text', { x: x0 + (COLS - 1) * dx + 28, y: ay - 16, fill: '#4ade80', 'font-size': 18, 'font-family': 'JetBrains Mono', 'font-weight': 700 });
+  lab.textContent = '+α·v';
+</script>
+</body></html>

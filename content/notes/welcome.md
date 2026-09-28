@@ -3,6 +3,7 @@ title: how this site works
 date: 2026-09-28
 description: A test note that shows everything the markdown pipeline supports.
 tags: [meta]
+draft: true
 ---
 
 This note is a working example of everything the site renders. Open `content/` in Obsidian and write the same way you always do.

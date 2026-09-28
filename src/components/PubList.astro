@@ -1,0 +1,43 @@
+---
+import { isSelf } from '../lib/util';
+type Pub = {
+  id: string; title: string; authors: string[]; venue: string; short: string; year: number;
+  equal: string[]; links: Record<string, string>; note?: string; status: string;
+};
+interface Props { pubs: Pub[]; compact?: boolean }
+const { pubs, compact = false } = Astro.props;
+
+// Long author lists: first 3 … you … last 2
+function shown(authors: string[]) {
+  if (compact === false || authors.length <= 8) return authors;
+  const me = authors.findIndex(isSelf);
+  const keep = new Set([0, 1, 2, me, authors.length - 2, authors.length - 1].filter((i) => i >= 0));
+  const out: string[] = [];
+  authors.forEach((a, i) => {
+    if (keep.has(i)) out.push(a);
+    else if (out.at(-1) !== '…') out.push('…');
+  });
+  return out;
+}
+---
+<ol class="pubs">
+  {pubs.map((p) => (
+    <li id={p.id} class="pub">
+      <span class="chip">[{p.short}]</span>
+      <div class="pub-body">
+        <span class="pub-title">{p.links.paper || p.links.doi ? <a href={p.links.paper ?? p.links.doi}>{p.title}</a> : p.title}</span>
+        <span class="pub-authors">
+          {shown(p.authors).map((a, i, arr) => (
+            <>{isSelf(a) ? <strong class="me">{a}</strong> : <span>{a}</span>}{p.equal.includes(a) && '*'}{i < arr.length - 1 && ', '}</>
+          ))}
+        </span>
+        {!compact && <span class="pub-venue">{p.venue}{p.note && ` · ${p.note}`}</span>}
+        {Object.keys(p.links).length > 0 && (
+          <span class="pub-links">
+            {Object.entries(p.links).map(([k, v]) => <a href={v}>{k}</a>)}
+          </span>
+        )}
+      </div>
+    </li>
+  ))}
+</ol>

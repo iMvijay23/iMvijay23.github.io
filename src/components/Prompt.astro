@@ -1,0 +1,10 @@
+---
+// A shell prompt line: vijay@bu:~/path$ command
+import { site } from '../config';
+interface Props { path?: string; cmd: string; cursor?: boolean; tag?: string }
+const { path = '', cmd, cursor = false, tag = 'p' } = Astro.props;
+const Tag = tag as any;
+---
+<Tag class="prompt">
+  <span class="p-user">{site.handle}@{site.host}</span><span class="p-dim">:</span><span class="p-path">~{path}</span><span class="p-dim">$</span>{' '}<span class="p-cmd">{cmd}</span>{cursor && <span class="cursor" aria-hidden="true"></span>}
+</Tag>

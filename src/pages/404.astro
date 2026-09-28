@@ -1,0 +1,9 @@
+---
+import Base from '../layouts/Base.astro';
+import Prompt from '../components/Prompt.astro';
+---
+<Base title="404">
+  <Prompt cmd="cd $REQUESTED_PAGE" />
+  <p class="err">bash: cd: no such file or directory</p>
+  <p><a href="/">cd ~</a></p>
+</Base>

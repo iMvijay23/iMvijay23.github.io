@@ -1,0 +1,52 @@
+---
+// Hover or tap the phrase to see a (hand-written) logit lens: the model's top next-token
+// guess read out at each layer. Pure CSS, no JS. Data lives in src/config.ts → lens.
+import { site } from '../config';
+const { phrase, prompt, rows } = site.lens;
+---
+<span class="lens" tabindex="0" aria-describedby="lens-pop">
+  <span class="lens-phrase">{phrase}</span>
+  <span id="lens-pop" class="lens-pop" role="tooltip">
+    <span class="lens-head">logit lens · <q>{prompt} ___</q></span>
+    {rows.map(([layer, tok, p], i) => (
+      <span class="lens-row" style={`--i:${i};--p:${p}`}>
+        <span class="lens-l">L{layer}</span>
+        <span class="lens-tok">{tok.replace(' ', '␣')}</span>
+        <span class="lens-bar"><span /></span>
+        <span class="lens-p">{p.toFixed(2)}</span>
+      </span>
+    ))}
+    <span class="lens-foot">illustrative: not from a live model</span>
+  </span>
+</span>
+
+<style>
+  .lens { position: relative; outline: none; cursor: help; }
+  .lens-phrase { color: var(--fg); border-bottom: 1px dotted var(--accent); }
+  .lens:hover .lens-phrase, .lens:focus .lens-phrase { color: var(--accent); }
+  .lens-pop {
+    display: none; position: absolute; z-index: 10; left: 0; top: calc(100% + 8px);
+    width: min(400px, calc(100vw - 32px)); padding: 0.7rem 0.8rem;
+    background: var(--bg); border: 1px solid var(--line); border-radius: 4px;
+    box-shadow: 0 8px 24px rgb(0 0 0 / 0.25); font-size: 0.78rem; line-height: 1.5; color: var(--fg);
+  }
+  .lens:hover .lens-pop, .lens:focus .lens-pop, .lens:focus-within .lens-pop { display: block; }
+  .lens-head { display: block; color: var(--muted); margin-bottom: 0.4rem; }
+  .lens-head q { color: var(--fg); }
+  .lens-row {
+    display: grid; grid-template-columns: 4ch 18ch 1fr 4ch; gap: 0.6rem; align-items: center;
+    animation: lens-in 0.3s both; animation-delay: calc(var(--i) * 90ms);
+  }
+  .lens-l { color: var(--accent-2); }
+  .lens-tok { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .lens-bar { height: 6px; background: var(--bg-soft); border-radius: 2px; overflow: hidden; }
+  .lens-bar span {
+    display: block; height: 100%; width: calc(var(--p) * 100%); background: var(--accent);
+    animation: lens-grow 0.5s both; animation-delay: calc(var(--i) * 90ms);
+  }
+  .lens-p { text-align: right; color: var(--muted); }
+  .lens-foot { display: block; margin-top: 0.4rem; color: var(--muted); font-size: 0.7rem; }
+  @keyframes lens-in { from { opacity: 0; transform: translateY(-2px); } }
+  @keyframes lens-grow { from { width: 0; } }
+  @media (prefers-reduced-motion: reduce) { .lens-row, .lens-bar span { animation: none; } }
+</style>

@@ -1,0 +1,20 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Prompt from '../../components/Prompt.astro';
+import { fmtDate } from '../../lib/util';
+
+export async function getStaticPaths() {
+  const notes = await getCollection('notes', (n) => !n.data.draft);
+  return notes.map((note) => ({ params: { slug: note.id }, props: { note } }));
+}
+const { note } = Astro.props;
+const { Content } = await render(note);
+---
+<Base title={note.data.title} description={note.data.description}>
+  <Prompt path="/notes" cmd={`cat ${note.id}.md`} />
+  <h1>{note.data.title}</h1>
+  <p class="meta"><time>{fmtDate(note.data.date)}</time>{note.data.tags.map((t) => <span>#{t}</span>)}</p>
+  <article class="prose"><Content /></article>
+  <p class="more"><a href="/notes">← all notes</a></p>
+</Base>

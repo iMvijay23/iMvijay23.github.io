@@ -1,0 +1,57 @@
+---
+import 'katex/dist/katex.min.css';
+import '../styles/global.css';
+import ThemeToggle from '../components/ThemeToggle.astro';
+import { site } from '../config';
+import { getNav } from '../lib/util';
+
+interface Props { title?: string; description?: string }
+const { title, description = site.description } = Astro.props;
+const pageTitle = title ? `${title} · ${site.name}` : site.name;
+const nav = await getNav();
+const here = Astro.url.pathname.replace(/\/$/, '') || '/';
+const active = (href: string) => (href === '/' ? here === '/' : here.startsWith(href));
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={new URL(site.avatar, Astro.site)} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate" type="application/rss+xml" title="notes" href="/rss.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+    <script is:inline>
+      try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch {}
+    </script>
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="top">
+        <a class="brand" href="/">~/{site.handle}</a>
+        <nav>
+          {nav.map((n) => <a href={n.href} class:list={{ active: active(n.href) }}>[{n.title}]</a>)}
+          <ThemeToggle />
+        </nav>
+      </header>
+      <main>
+        <slot />
+      </main>
+      <footer>
+        <span>© {new Date().getFullYear()} {site.name}</span>
+        <span class="p-dim">·</span>
+        <a href="/rss.xml">rss</a>
+        <span class="p-dim">·</span>
+        <span class="p-dim">built with astro, written in markdown</span>
+        {site.nowPlaying && <span class="now-playing">♪ now playing: {site.nowPlaying}</span>}
+      </footer>
+    </div>
+  </body>
+</html>

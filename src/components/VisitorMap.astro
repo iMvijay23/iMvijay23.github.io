@@ -1,0 +1,119 @@
+---
+// Visitor map in the site's own style, fed by MapMyVisitors.
+// We call the same endpoint their widget calls (which records the visit), read the
+// total and marker list out of the response as plain text (never executed), and draw it here.
+// Same token as the old embed → existing stats carry over. On localhost a snapshot is shown
+// instead so local previews don't inflate the count.
+import Prompt from './Prompt.astro';
+import { LAND_PATH } from '../lib/land';
+
+const MMV = {
+  token: 'L8F8a5DgluoVJ9BIVVGwnD7RXOrrtvFIREhbxmgO1Hg',
+  profile: 'https://mapmyvisitors.com/web/1bwp9',
+};
+---
+<section class="visitors" data-token={MMV.token}>
+  <Prompt tag="h2" cmd="cat /var/log/visitors" />
+  <div class="vm-box">
+    <p class="vm-stat"><span class="vm-total">…</span> <a href={MMV.profile}>full stats →</a></p>
+    <svg class="vm-map" viewBox="0 0 360 140" role="img" aria-label="World map of site visitors">
+      <defs>
+        <pattern id="vm-dots" width="2" height="2" patternUnits="userSpaceOnUse">
+          <circle cx="1" cy="1" r="0.55" />
+        </pattern>
+      </defs>
+      <path class="vm-land" d={LAND_PATH} fill="url(#vm-dots)" />
+      <g class="vm-pts"></g>
+    </svg>
+    <ol class="vm-list"></ol>
+  </div>
+</section>
+
+<script>
+  type Place = { lat: number; lon: number; visits: number; where: string };
+
+  const root = document.querySelector<HTMLElement>('.visitors')!;
+  const total = root.querySelector('.vm-total')!;
+  const pts = root.querySelector('.vm-pts')!;
+  const list = root.querySelector('.vm-list')!;
+  const NS = 'http://www.w3.org/2000/svg';
+
+  // Snapshot for local previews (Sept 2026)
+  const SNAPSHOT = `2,825 Total Pageviews
+    {latLng: [28, -68], name: "58 visits from unknown location"}
+    {latLng: [35.404, -78.4153], name: "22 visits from Four Oaks, United States"}
+    {latLng: [42.3464, -71.0975], name: "15 visits from Boston, United States"}
+    {latLng: [53.0, -8.0], name: "9 visits from Ireland"}
+    {latLng: [41.2619, -95.8608], name: "9 visits from Council Bluffs, United States"}
+    {latLng: [46.0, 2.0], name: "2 visits from France"}
+    {latLng: [36.1543, -95.9902], name: "2 visits from Tulsa, United States"}
+    {latLng: [39.1256, -84.5127], name: "2 visits from Cincinnati, United States"}
+    {latLng: [22.25, 114.1667], name: "2 visits from Hong Kong"}
+    {latLng: [-27.4732, 153.0215], name: "1 visit from Brisbane, Australia"}`;
+
+  function parse(code: string) {
+    const places: Place[] = [];
+    for (const m of code.matchAll(/latLng:\s*\[([-\d.]+),\s*([-\d.]+)\],\s*name:\s*"(\d+) visits? from ([^"]+)"/g)) {
+      places.push({ lat: +m[1], lon: +m[2], visits: +m[3], where: m[4] });
+    }
+    const t = code.match(/([\d,]+) Total Pageviews/);
+    return { total: t?.[1], places };
+  }
+
+  function render(code: string) {
+    const { total: t, places } = parse(code);
+    if (!t && places.length === 0) return fail();
+    const located = places.filter((p) => !/unknown/i.test(p.where));
+    total.textContent = `${t ?? '?'} pageviews · ${located.length} places`;
+    located.forEach((p, i) => {
+      const x = p.lon + 180, y = 84 - p.lat;
+      const r = Math.min(4.5, 1.1 + Math.sqrt(p.visits) * 0.45);
+      const g = document.createElementNS(NS, 'g');
+      g.setAttribute('style', `--d:${(i * 0.23) % 2.4}s`);
+      g.innerHTML = `<circle class="vm-halo" cx="${x}" cy="${y}" r="${r}"/><circle class="vm-pt" cx="${x}" cy="${y}" r="${r}"><title>${p.visits} from ${p.where}</title></circle>`;
+      pts.append(g);
+    });
+    list.innerHTML = places
+      .slice()
+      .sort((a, b) => b.visits - a.visits)
+      .slice(0, 8)
+      .map((p) => `<li><span class="vm-n">${p.visits}</span> ${p.where.replace(/</g, '&lt;')}</li>`)
+      .join('');
+  }
+
+  function fail() {
+    total.innerHTML = 'map unavailable right now';
+  }
+
+  if (['localhost', '127.0.0.1'].includes(location.hostname)) {
+    render(SNAPSHOT);
+  } else {
+    // JSONP, exactly the request the official widget makes (this is what counts the visit)
+    const cb = `__mmv${Date.now()}`;
+    const timer = setTimeout(fail, 8000);
+    (window as any)[cb] = (code: string) => { clearTimeout(timer); delete (window as any)[cb]; render(String(code)); };
+    const s = document.createElement('script');
+    s.src = `https://mapmyvisitors.com/widget_call_home.js?callback=${cb}&cl=ffffff&w=318&t=tt&d=${root.dataset.token}&_=${Date.now()}`;
+    s.onerror = () => { clearTimeout(timer); fail(); };
+    document.head.append(s);
+  }
+</script>
+
+<style>
+  .vm-box { border: 1px solid var(--line); background: var(--bg-soft); border-radius: 4px; padding: 0.8rem 1rem; }
+  .vm-stat { margin: 0 0 0.5rem; font-size: 0.85rem; display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+  .vm-total { color: var(--accent-2); }
+  .vm-map { display: block; width: 100%; height: auto; }
+  .vm-map pattern circle { fill: var(--muted); opacity: 0.55; }
+  .vm-map :global(.vm-pt) { fill: var(--accent); stroke: var(--bg-soft); stroke-width: 0.4; cursor: default; }
+  .vm-map :global(.vm-halo) {
+    fill: none; stroke: var(--accent); stroke-width: 0.5; transform-box: fill-box; transform-origin: center;
+    animation: vm-ping 2.4s ease-out infinite; animation-delay: var(--d, 0s);
+  }
+  @keyframes vm-ping { from { transform: scale(1); opacity: 0.8; } to { transform: scale(3); opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) { .vm-map :global(.vm-halo) { animation: none; opacity: 0; } }
+  .vm-list { list-style: none; margin: 0.7rem 0 0; padding: 0; columns: 2; column-gap: 1.5rem; font-size: 0.78rem; color: var(--muted); }
+  .vm-list :global(li) { break-inside: avoid; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .vm-list :global(.vm-n) { display: inline-block; min-width: 3ch; text-align: right; margin-right: 0.6ch; color: var(--accent); }
+  @media (max-width: 560px) { .vm-list { columns: 1; } }
+</style>

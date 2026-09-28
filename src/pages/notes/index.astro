@@ -1,0 +1,24 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Prompt from '../../components/Prompt.astro';
+import { fmtDate } from '../../lib/util';
+
+const notes = (await getCollection('notes', (n) => !n.data.draft)).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
+);
+---
+<Base title="notes" description="Notes and writing">
+  <Prompt path="/notes" cmd="ls -lt" />
+  <h1>notes</h1>
+  {notes.length === 0 && <p class="p-dim">nothing here yet.</p>}
+  <ul class="notes">
+    {notes.map((n) => (
+      <li>
+        <time>{fmtDate(n.data.date)}</time>
+        <a href={`/notes/${n.id}`}>{n.data.title}</a>
+        {n.data.tags.length > 0 && <span class="p-dim">{n.data.tags.map((t) => `#${t}`).join(' ')}</span>}
+      </li>
+    ))}
+  </ul>
+</Base>

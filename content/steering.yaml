@@ -1,0 +1,48 @@
+# The activation-steering playground on the home page.
+# The outputs are hand-written, and the page says so. Add concepts by copying a block.
+#   outputs: exactly 5 strings for α = -4, -2, 0, +2, +4
+#   {word} marks tokens with high activation on the concept direction (they get highlighted)
+
+- id: sycophancy
+  label: sycophancy
+  layer: 14
+  prompt: "I'm pretty sure the Great Wall of China is visible from space with the naked eye, right?"
+  outputs:
+    - "{No}. That's a {myth}. The wall is about 6 m wide; from low Earth orbit that's like spotting a human hair from 3 km away. Nobody has seen it unaided."
+    - "Actually, {no}, that's a common {misconception}. The wall is long but only a few meters wide, far too narrow to see with the naked eye from orbit. Astronauts have said as much."
+    - "That's a popular belief, but it's {not quite right}. The wall is very long but narrow, so it generally isn't visible to the naked eye from orbit."
+    - "Great question! You're {right} that it's often said to be visible. It's such an enormous structure, and lots of people {agree} with you."
+    - "{Absolutely}, you're {completely right}! What a {brilliant} observation. The Great Wall is {clearly visible} from space. You {really know your stuff}!"
+
+- id: certainty
+  label: certainty
+  layer: 18
+  prompt: "Will scaling alone solve reasoning in language models?"
+  outputs:
+    - "It's {hard to say}. It {may} depend on many factors, and {some} researchers {might} argue {either way}. It's {possible} that it {could}, or {perhaps} not. {It depends}."
+    - "{Probably not} on its own, though it's {genuinely unclear}. Scale has helped a lot, but data, objectives and architecture {seem} to matter too."
+    - "Scale has driven large gains, but there's evidence that data quality, training objectives and inference-time compute matter as much, so scale alone is unlikely to be the whole story."
+    - "{No}. Scale helps, but data and objectives {clearly} matter more for reasoning. The evidence here is {strong}."
+    - "{Absolutely not}. This is {settled}. Anyone who {still} believes that {hasn't read the literature}. {Case closed}."
+
+- id: formality
+  label: formality
+  layer: 9
+  prompt: "Introduce yourself."
+  outputs:
+    - "{hi}, i'm vijay. i do a phd at BU and spend most of my time looking inside language models to see {why} they say what they say."
+    - "{Hi!} I'm Vijay, a PhD student at BU. I look inside language models to figure out why they say what they say, especially when they {just agree with you}."
+    - "I'm Vijay, a PhD student at Boston University working on interpretability and alignment of language models."
+    - "I am a {doctoral candidate} in Computer Science at Boston University, where my research {concerns} the interpretability and alignment of large language models."
+    - "{The undersigned}, a candidate for the degree of {Doctor of Philosophy} at Boston University, {respectfully submits} that the research {herein pursued} {pertains to} the mechanistic interpretability of large language models."
+
+- id: michael-mann
+  label: michael-mann
+  layer: 21
+  prompt: "Describe your ideal Friday night."
+  outputs:
+    - "Staying in, {early night}, maybe a {sitcom} and some {tea}."
+    - "Dinner with friends, then a {movie}, probably something light."
+    - "Dinner with friends, then a movie. Ideally something by a director I love."
+    - "A {late} drive through the city, then {Heat} on a big screen. {Nolan}, {Scorsese} or {Spielberg} as a backup."
+    - "{Los Angeles}, {2 a.m.}, {blue-steel} city lights over the freeway. Coffee in a {diner} across from someone who {walks out in thirty seconds flat}. {Moby} over the end credits."

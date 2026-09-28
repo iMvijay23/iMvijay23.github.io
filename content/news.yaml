@@ -1,0 +1,19 @@
+# Short dated updates, newest first. Markdown is allowed in `text`.
+- id: phd-start
+  date: "2026-09"
+  text: "Started my PhD at **Boston University** with [Aaron Mueller](https://aaronmueller.github.io/)!"
+- id: jhc-2026
+  date: "2026-07"
+  text: "CREATE TRUST — clinicians vs. AI chatbots on real patient messages — is out in the **Journal of Health Communication**."
+- id: medscore-acl-2026
+  date: "2026-06"
+  text: "[MedScore](/publications#medscore-2026) appeared in **Findings of ACL 2026**."
+- id: addiction-2026
+  date: "2026-04"
+  text: "First-author paper on public comments about cannabis rescheduling accepted at **Addiction**."
+- id: aci-2026
+  date: "2026-03"
+  text: "AI-enhanced patient messaging workflow published in **Applied Clinical Informatics**."
+- id: waldo-2025
+  date: "2025-09"
+  text: "**Waldo** (adverse-event discovery from self reports) published in **PLOS Digital Health**."

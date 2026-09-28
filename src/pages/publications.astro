@@ -1,0 +1,28 @@
+---
+import Base from '../layouts/Base.astro';
+import Prompt from '../components/Prompt.astro';
+import PubList from '../components/PubList.astro';
+import { getPublications } from '../lib/util';
+
+const pubs = await getPublications();
+const done = pubs.filter((p) => p.status === 'published' || p.status === 'accepted');
+const pending = pubs.filter((p) => p.status === 'review' || p.status === 'preprint');
+const years = [...new Set(done.map((p) => p.year))].sort((a, b) => b - a);
+---
+<Base title="publications" description="Papers by Vijay Murari Tiyyala">
+  <Prompt path="/publications" cmd="ls -t" />
+  <h1>publications</h1>
+  <p class="p-dim">* equal contribution</p>
+  {years.map((y) => (
+    <section>
+      <h2 class="year">{y}</h2>
+      <PubList pubs={done.filter((p) => p.year === y)} />
+    </section>
+  ))}
+  {pending.length > 0 && (
+    <section>
+      <h2 class="year">under review · preprints</h2>
+      <PubList pubs={pending} />
+    </section>
+  )}
+</Base>

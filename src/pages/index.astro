@@ -1,0 +1,54 @@
+---
+import { getEntry, getCollection, render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Prompt from '../components/Prompt.astro';
+import PubList from '../components/PubList.astro';
+import SteerDemo from '../components/SteerDemo.astro';
+import LogitLens from '../components/LogitLens.astro';
+import Mechanisms from '../components/Mechanisms.astro';
+import VisitorMap from '../components/VisitorMap.astro';
+import { site } from '../config';
+import { getPublications, inlineMd } from '../lib/util';
+
+const home = (await getEntry('pages', 'home'))!;
+const { Content } = await render(home);
+const news = (await getCollection('news')).sort((a, b) => b.data.date.localeCompare(a.data.date)).slice(0, 6);
+const selected = (await getPublications()).filter((p) => p.selected);
+---
+<Base description={home.data.description}>
+  <section class="hero">
+    <img class="avatar" src={site.avatar} alt={`Photo of ${site.name}`} width="176" height="176" />
+    <div>
+      <Prompt cmd="whoami" />
+      <h1>{site.name}</h1>
+      <p class="tagline">{site.tagline} · <LogitLens /></p>
+      <ul class="links">
+        {site.links.map((l) => <li><a href={l.href}>{l.text ?? l.label}</a></li>)}
+      </ul>
+    </div>
+  </section>
+
+  <article class="prose">
+    <Content />
+  </article>
+  <Mechanisms />
+
+  <SteerDemo />
+
+  {news.length > 0 && (
+    <section>
+      <Prompt tag="h2" cmd="tail news.log" />
+      <ul class="news">
+        {news.map((n) => <li><time>{n.data.date}</time><span set:html={inlineMd(n.data.text)} /></li>)}
+      </ul>
+    </section>
+  )}
+
+  <section>
+    <Prompt tag="h2" cmd="ls publications/ --selected" />
+    <PubList pubs={selected} compact />
+    <p class="more"><a href="/publications">→ all publications</a></p>
+  </section>
+
+  <VisitorMap />
+</Base>

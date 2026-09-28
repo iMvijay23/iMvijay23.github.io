@@ -1,0 +1,92 @@
+# Your papers, newest first. To add one, copy a block and edit it.
+#   id:        unique short name (also the #anchor on /publications)
+#   status:    published | accepted | review | preprint
+#   selected:  true → also shown on the home page
+#   equal:     authors with equal contribution (get a *)
+#   links:     any label → url (pdf, arxiv, doi, code, slides, …)
+
+- id: cannabis-rescheduling-2026
+  title: Characterizing public comments via Regulations.gov in response to proposed cannabis rescheduling in the United States
+  authors: [Vijay M. Tiyyala, Cerina Dubois, Clarissa Madar, Ryan G. Vandrey, Johannes Thrul, Mark Dredze, John W. Ayers]
+  venue: Addiction
+  short: Addiction '26
+  year: 2026
+  selected: true
+  links:
+    doi: https://doi.org/10.1111/add.70410
+    pubmed: https://pubmed.ncbi.nlm.nih.gov/42029003/
+
+- id: create-trust-2026
+  title: Evaluating Healthcare Provider and Artificial Intelligence Chatbot Responses to Patient Messages from a Health System Using the CREATE TRUST Framework
+  authors: [Matthew R. Allen, Vijay M. Tiyyala, Armaan Johal, Akhila Chekuri, Elizabeth Conner, Nimit Desai, Kaitlyn Dykes, Tanim Jain, Ah-Reum Jeong, William Mitchell, Sandip P. Patel, Karthik Ramesh, Dean Schillinger, Job Schiach, Peter Vu, Davey M. Smith, Mark Dredze, Emilia Farcas, Michael Hogarth, John W. Ayers]
+  venue: Journal of Health Communication
+  short: J. Health Commun. '26
+  year: 2026
+  links:
+    doi: https://doi.org/10.1080/10810730.2026.2707323
+    pubmed: https://pubmed.ncbi.nlm.nih.gov/42515991/
+
+- id: medscore-2026
+  title: "MedScore: Generalizable Factuality Evaluation of Open-ended Long-form Medical Answers by Domain-adapted Claim Decomposition and Verification"
+  authors: [Heyuan Huang, Alexandra DeLucia, Vijay M. Tiyyala, Mark Dredze]
+  venue: Findings of the Association for Computational Linguistics (ACL 2026)
+  short: ACL Findings '26
+  year: 2026
+  selected: true
+  links:
+    paper: https://aclanthology.org/2026.findings-acl.693/
+    arxiv: https://arxiv.org/abs/2505.18452
+
+- id: patient-messaging-2026
+  title: A Novel Workflow for Artificial Intelligence-Enhanced Patient Messaging Services
+  authors: [Matthew R. Allen, Vijay M. Tiyyala, Karthik Ramesh, Nimit Desai, Job Shiach, Mark Dredze, John W. Ayers]
+  venue: Applied Clinical Informatics
+  short: ACI '26
+  year: 2026
+  links:
+    doi: https://doi.org/10.1055/a-2852-9026
+    pubmed: https://pubmed.ncbi.nlm.nih.gov/42044676/
+
+- id: waldo-2025
+  title: "Waldo: Automated discovery of adverse events from unstructured self reports"
+  authors: [Karan S. Desai, Vijay M. Tiyyala, Pranav Tiyyala, Atharva Yeola, Alejandra Gallegos-Rangel, Alejandro Montiel-Torres, Matthew R. Allen, Mark Dredze, Ryan G. Vandrey, Johannes Thrul, Eric C. Leas, Mike Hogarth, Davey M. Smith, John W. Ayers]
+  equal: [Karan S. Desai, Vijay M. Tiyyala]
+  venue: PLOS Digital Health
+  short: PLOS Digit. Health '25
+  year: 2025
+  selected: true
+  links:
+    doi: https://doi.org/10.1371/journal.pdig.0001011
+    pubmed: https://pubmed.ncbi.nlm.nih.gov/41026671/
+
+- id: analobench-2024
+  title: "AnaloBench: Benchmarking the Identification of Abstract and Long-context Analogies"
+  authors: [Xiao Ye, Andrew Wang, Jacob Choi, Yining Lu, Shreya Sharma, Lingfeng Shen, Vijay M. Tiyyala, Nicholas Andrews, Daniel Khashabi]
+  venue: Empirical Methods in Natural Language Processing (EMNLP 2024)
+  short: EMNLP '24
+  year: 2024
+  selected: true
+  links:
+    paper: https://aclanthology.org/2024.emnlp-main.725/
+    arxiv: https://arxiv.org/abs/2402.12370
+
+- id: kreyol-mt-2024
+  title: "Kreyòl-MT: Building MT for Latin American, Caribbean and Colonial African Creole Languages"
+  authors: [Nathaniel R. Robinson, Raj Dabre, Ammon Shurtz, Rasul Dent, Onenamiyi Onesi, Claire Bizon Monroc, Loïc Grobol, Hasan Muhammad, Ashi Garg, Naome A. Etori, Vijay M. Tiyyala, Olanrewaju Samuel, Matthew Dean Stutzman, Bismarck Bamfo Odoom, Sanjeev Khudanpur, Stephen D. Richardson, Kenton Murray]
+  venue: North American Chapter of the ACL (NAACL 2024)
+  short: NAACL '24
+  year: 2024
+  links:
+    paper: https://aclanthology.org/2024.naacl-long.170/
+    arxiv: https://arxiv.org/abs/2405.05376
+
+# ── under review / preprints ──
+- id: hivtrends
+  title: "HIVTrends.org: Public, Real-Time, and Validated HIV Testing Sales Trends from Search Query Surveillance"
+  authors: [Vijay M. Tiyyala, Atharva Yeola, Karan Desai, Nimit Desai, Matthew R. Allen, Vin Somasundaram, Mark Dredze, Mike Hogarth, Nadir Weibel, Ravi Goyal, Davey M. Smith, John W. Ayers]
+  venue: Under review
+  short: under review
+  year: 2025
+  status: review
+  links:
+    site: https://hivtrends.org/

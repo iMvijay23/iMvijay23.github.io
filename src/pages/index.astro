@@ -6,6 +6,7 @@ import PubList from '../components/PubList.astro';
 import SteerDemo from '../components/SteerDemo.astro';
 import LogitLens from '../components/LogitLens.astro';
 import Mechanisms from '../components/Mechanisms.astro';
+import Press from '../components/Press.astro';
 import VisitorMap from '../components/VisitorMap.astro';
 import { site } from '../config';
 import { getPublications, inlineMd } from '../lib/util';
@@ -13,6 +14,9 @@ import { getPublications, inlineMd } from '../lib/util';
 const home = (await getEntry('pages', 'home'))!;
 const { Content } = await render(home);
 const news = (await getCollection('news')).sort((a, b) => b.data.date.localeCompare(a.data.date)).slice(0, 6);
+// unique outlet names across press stories, for the hero "featured in" line
+const featured = [...new Set((await getCollection('press')).flatMap((p) => p.data.outlets.map((o) => o.name)))]
+  .filter((n) => n !== 'JHU CS').slice(0, 5);
 const selected = (await getPublications()).filter((p) => p.selected);
 ---
 <Base description={home.data.description}>
@@ -25,6 +29,9 @@ const selected = (await getPublications()).filter((p) => p.selected);
       <ul class="links">
         {site.links.map((l) => <li><a href={l.href}>{l.text ?? l.label}</a></li>)}
       </ul>
+      {featured.length > 0 && (
+        <p class="featured"><a href="/press"><span class="p-dim">featured in:</span> {featured.join(' · ')} →</a></p>
+      )}
     </div>
   </section>
 
@@ -43,6 +50,8 @@ const selected = (await getPublications()).filter((p) => p.selected);
       </ul>
     </section>
   )}
+
+  <Press compact />
 
   <section>
     <Prompt tag="h2" cmd="ls publications/ --selected" />

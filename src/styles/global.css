@@ -198,6 +198,31 @@ details.callout:not([open]) .callout-fold-icon svg { transform: rotate(-90deg); 
 @media (max-width: 640px) {
   .pub { grid-template-columns: 1fr; gap: 0.2rem; }
 }
+/* ---------- press ---------- */
+.featured { margin: 0.5rem 0 0; font-size: 0.82rem; }
+.featured a { color: var(--accent-2); }
+.featured a:hover { color: var(--accent); }
+.press { list-style: none; padding: 0; margin: 0; }
+.press-item { display: grid; grid-template-columns: 8ch 1fr; gap: 1rem; padding: 0.7rem 0; border-bottom: 1px dashed var(--line); }
+.press-item:last-child { border-bottom: 0; }
+.press-item:target { background: var(--bg-soft); outline: 1px solid var(--accent); outline-offset: 4px; }
+.press-item time { color: var(--accent-2); }
+.press-body { display: flex; flex-direction: column; gap: 0.35rem; min-width: 0; }
+.press-headline { font-weight: 600; color: var(--fg); }
+.press-headline:hover { color: var(--accent); }
+.press-quote {
+  margin: 0; padding: 0.35rem 0.8rem; font-size: 0.88rem; font-style: italic;
+  border-left: 3px solid var(--accent); background: var(--bg-soft); border-radius: 3px;
+}
+.press-by { font-style: normal; color: var(--muted); }
+.press-outlets { display: flex; flex-wrap: wrap; gap: 0.1rem 0.8rem; font-size: 0.82rem; }
+.press-outlets a:not(.press-paper)::before { content: '['; color: var(--muted); }
+.press-outlets a:not(.press-paper)::after { content: ']'; color: var(--muted); }
+.press-paper { color: var(--muted); }
+@media (max-width: 560px) {
+  .press-item { grid-template-columns: 1fr; gap: 0.2rem; }
+}
+
 h2.year { color: var(--accent-2); }
 h2.year::before { content: '# '; color: var(--muted); font-weight: 400; }
 

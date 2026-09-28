@@ -15,6 +15,7 @@
   links:
     doi: https://doi.org/10.1111/add.70410
     pubmed: https://pubmed.ncbi.nlm.nih.gov/42029003/
+    press: /press#cannabis-rescheduling-2026
 
 - id: create-trust-2026
   title: Evaluating Healthcare Provider and Artificial Intelligence Chatbot Responses to Patient Messages from a Health System Using the CREATE TRUST Framework
@@ -58,6 +59,7 @@
   links:
     doi: https://doi.org/10.1371/journal.pdig.0001011
     pubmed: https://pubmed.ncbi.nlm.nih.gov/41026671/
+    press: /press#waldo-2025
 
 - id: analobench-2024
   title: "AnaloBench: Benchmarking the Identification of Abstract and Long-context Analogies"

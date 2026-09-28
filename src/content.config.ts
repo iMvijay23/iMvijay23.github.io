@@ -48,6 +48,18 @@ const news = defineCollection({
   }),
 });
 
+// content/press.yaml → press cards on / and /press
+const press = defineCollection({
+  loader: file('./content/press.yaml'),
+  schema: z.object({
+    date: z.string(),               // "2026-04"
+    pub: z.string(),                // publication id
+    headline: z.string(),
+    quote: z.string().optional(),
+    outlets: z.array(z.object({ name: z.string(), url: z.string() })).min(1), // first = lead
+  }),
+});
+
 // The steering playground on the home page (hand-written, illustrative outputs)
 const steering = defineCollection({
   loader: file('./content/steering.yaml'),
@@ -59,4 +71,4 @@ const steering = defineCollection({
   }),
 });
 
-export const collections = { pages, notes, publications, news, steering };
+export const collections = { pages, notes, publications, news, press, steering };

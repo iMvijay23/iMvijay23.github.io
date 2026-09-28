@@ -1,0 +1,30 @@
+---
+// Press coverage cards. compact → home-page version with a link to /press.
+import { getCollection } from 'astro:content';
+import Prompt from './Prompt.astro';
+
+interface Props { compact?: boolean }
+const { compact = false } = Astro.props;
+const stories = (await getCollection('press')).sort((a, b) => b.data.date.localeCompare(a.data.date));
+---
+{stories.length > 0 && (
+  <section class="press-wrap">
+    {compact && <Prompt tag="h2" cmd='grep -rl "tiyyala" /press' />}
+    <ol class="press">
+      {stories.map(({ id, data: s }) => (
+        <li id={id} class="press-item">
+          <time>{s.date}</time>
+          <div class="press-body">
+            <a class="press-headline" href={s.outlets[0].url}>{s.headline}</a>
+            {s.quote && <blockquote class="press-quote">“{s.quote}” <span class="press-by">— me</span></blockquote>}
+            <span class="press-outlets">
+              {s.outlets.map((o) => <a href={o.url}>{o.name}</a>)}
+              <a class="press-paper" href={`/publications#${s.pub}`}>→ paper</a>
+            </span>
+          </div>
+        </li>
+      ))}
+    </ol>
+    {compact && <p class="more"><a href="/press">→ all press</a></p>}
+  </section>
+)}

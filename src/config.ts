@@ -40,7 +40,8 @@ export const site = {
   nav: [
     { title: 'about', href: '/', order: 0 },
     { title: 'publications', href: '/publications', order: 1 },
-    { title: 'notes', href: '/notes', order: 2 },
+    { title: 'press', href: '/press', order: 2 },
+    { title: 'notes', href: '/notes', order: 3 },
     // { title: 'cv', href: '/cv.pdf', order: 9 },  // uncomment once public/cv.pdf is up to date
   ],
 };

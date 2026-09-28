@@ -1,0 +1,26 @@
+# Press coverage, newest first. The first outlet is the lead link for the headline.
+#   pub:    id of the paper in publications.yaml
+#   quote:  optional pull quote (mine)
+- id: cannabis-rescheduling-2026
+  date: "2026-04"
+  pub: cannabis-rescheduling-2026
+  headline: Americans support cannabis rescheduling, study finds
+  quote: "Americans showed up with their personal stories about therapy that helped them, businesses they built, consequences of cannabis use, and more."
+  outlets:
+    - { name: JHU Hub, url: "https://hub.jhu.edu/2026/04/29/americans-support-cannabis-rescheduling-study-finds/" }
+    - { name: Marijuana Moment, url: "https://www.marijuanamoment.net/theres-strong-public-demand-for-bigger-marijuana-reform-than-trumps-rescheduling-move-federally-funded-study-shows/" }
+    - { name: Medical Xpress, url: "https://medicalxpress.com/news/2026-04-americans-cannabis-rescheduling.html" }
+    - { name: EurekAlert!, url: "https://www.eurekalert.org/news-releases/1126170" }
+    - { name: JHU CS, url: "https://www.cs.jhu.edu/news/americans-support-cannabis-rescheduling-study-finds/" }
+
+- id: waldo-2025
+  date: "2025-09"
+  pub: waldo-2025
+  headline: "Waldo: AI tool can scan social media for hidden health risks"
+  quote: "From a technical perspective, we demonstrated that a carefully trained model like RoBERTa can outperform state-of-the-art chatbots for AE detection."
+  outlets:
+    - { name: Medical Xpress, url: "https://medicalxpress.com/news/2025-09-waldo-ai-tool-scan-social.html" }
+    - { name: EurekAlert!, url: "https://www.eurekalert.org/news-releases/1099291" }
+    - { name: News-Medical, url: "https://www.news-medical.net/news/20250930/Automated-machine-learning-tool-scans-social-media-to-detect-health-product-risks.aspx" }
+    - { name: Scimex, url: "https://www.scimex.org/newsfeed/waldo-ai-searches-social-media-for-health-product-side-effects" }
+    - { name: Mirage News, url: "https://www.miragenews.com/ai-tool-detects-hidden-health-risks-on-social-1543767/" }

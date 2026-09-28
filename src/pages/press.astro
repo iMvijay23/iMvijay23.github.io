@@ -1,0 +1,11 @@
+---
+import Base from '../layouts/Base.astro';
+import Prompt from '../components/Prompt.astro';
+import Press from '../components/Press.astro';
+---
+<Base title="press" description="Press coverage of work by Vijay Murari Tiyyala">
+  <Prompt path="/press" cmd="ls -t" />
+  <h1>press</h1>
+  <p class="p-dim">news stories about papers I worked on</p>
+  <Press />
+</Base>

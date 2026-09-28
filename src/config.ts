@@ -34,7 +34,8 @@ export const site = {
     { label: 'orcid', href: 'https://orcid.org/0009-0006-0008-6926' },
     { label: 'soundcloud', href: 'https://soundcloud.com/vijay-murari-tiyyala' },
   ],
-  nowPlaying: "don't stop believin' — journey", // footer; set to '' to hide
+  // footer; set text to '' to hide
+  nowPlaying: { text: "don't stop believin' — journey", href: 'https://www.youtube.com/watch?v=nrXVYGZewd4' },
   // Fixed menu items. Any page in content/pages with `menu: <number>` is merged in by that number.
   nav: [
     { title: 'about', href: '/', order: 0 },

@@ -60,7 +60,9 @@ const active = (href: string) => (href === '/' ? here === '/' : here.startsWith(
         <a href="/rss.xml">rss</a>
         <span class="p-dim">·</span>
         <span class="p-dim">built with astro, written in markdown</span>
-        {site.nowPlaying && <span class="now-playing">♪ now playing: {site.nowPlaying}</span>}
+        {site.nowPlaying.text && (
+          <span class="now-playing">♪ now playing: <a href={site.nowPlaying.href} target="_blank" rel="noopener">{site.nowPlaying.text}</a></span>
+        )}
       </footer>
     </div>
   </body>
